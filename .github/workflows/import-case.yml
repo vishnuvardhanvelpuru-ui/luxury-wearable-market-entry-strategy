@@ -1,0 +1,42 @@
+name: Import validated case package
+on:
+  push:
+    paths:
+      - '.github/workflows/import-case.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v7
+      - name: Verify, unpack and validate the original package
+        if: hashFiles('data/raw/assumptions.csv') == ''
+        shell: bash
+        run: |
+          python - <<'PY'
+          import hashlib, pathlib, zipfile
+          archive = pathlib.Path('Case3_Luxury_Wearable_Strategy.zip')
+          assert hashlib.sha256(archive.read_bytes()).hexdigest() == 'ac5f6e0d866db8605306ce4c830897e63052da56f7080cb5791dc04464474206'
+          allowed = {'data','docs','excel','powerbi','scripts','sql','validation','README.md','.gitignore'}
+          with zipfile.ZipFile(archive) as z:
+              files = [x for x in z.infolist() if not x.is_dir()]
+              assert len(files) == 54
+              for item in files:
+                  parts = pathlib.PurePosixPath(item.filename).parts
+                  assert parts[0] == 'luxury-wearable-strategy'
+                  parts = parts[1:]
+                  assert parts and parts[0] in allowed and '..' not in parts
+                  dest = pathlib.Path(*parts)
+                  dest.parent.mkdir(parents=True, exist_ok=True)
+                  dest.write_bytes(z.read(item))
+          print('54 original project files imported and archive hash verified.')
+          PY
+          python scripts/check_outputs.py
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data docs excel powerbi scripts sql validation README.md .gitignore
+          git commit -m 'Expand and validate complete strategy project folder structure'
+          git push
