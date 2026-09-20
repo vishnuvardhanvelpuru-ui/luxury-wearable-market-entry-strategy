@@ -1,0 +1,2 @@
+assumption_id,discount_rate,conversion_calibration,mechanical_units,mechanical_net_price,mechanical_margin,max_cannibalization,max_brand_haircut
+1,0.12,0.12,10000,6000,0.65,0.02,0.005

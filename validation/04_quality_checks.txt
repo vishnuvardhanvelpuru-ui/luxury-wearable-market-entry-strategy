@@ -1,0 +1,12 @@
+item	actual	expected
+respondents	120	120
+responses	600	600
+segment rows	20	20
+forecast rows	45	45
+summary rows	15	15
+invalid_interest
+0
+invalid_forecast
+0
+max_cash_identity_error
+0.000000000000000000000000000000

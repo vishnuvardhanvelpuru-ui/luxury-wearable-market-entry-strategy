@@ -1,0 +1,121 @@
+respondent_id,segment_id,max_wtp,heritage_owner,preferred_channel
+1,1,1100,0,Boutique
+2,1,1050,0,Online
+3,1,1000,1,Online
+4,1,700,0,Online
+5,1,1100,0,Online
+6,1,1150,0,Online
+7,1,1000,0,Online
+8,1,950,1,Specialist retail
+9,1,650,1,Online
+10,1,1850,0,Boutique
+11,1,1250,0,Boutique
+12,1,1500,1,Online
+13,1,1150,0,Online
+14,1,1500,0,Specialist retail
+15,1,2150,0,Online
+16,1,1050,0,Online
+17,1,1300,0,Specialist retail
+18,1,1200,0,Boutique
+19,1,1750,1,Boutique
+20,1,700,0,Online
+21,1,1900,0,Online
+22,1,1250,0,Specialist retail
+23,1,900,0,Boutique
+24,1,1400,0,Online
+25,1,2200,0,Online
+26,1,1150,0,Specialist retail
+27,1,1350,0,Boutique
+28,1,1850,0,Specialist retail
+29,1,1100,0,Online
+30,1,1450,1,Online
+31,2,1000,0,Boutique
+32,2,650,0,Online
+33,2,500,1,Online
+34,2,700,1,Boutique
+35,2,1050,0,Boutique
+36,2,900,0,Specialist retail
+37,2,1000,0,Online
+38,2,1000,0,Specialist retail
+39,2,750,0,Online
+40,2,950,1,Online
+41,2,950,1,Boutique
+42,2,700,0,Boutique
+43,2,600,0,Online
+44,2,1000,0,Online
+45,2,900,0,Specialist retail
+46,2,1150,0,Online
+47,2,650,0,Specialist retail
+48,2,1000,0,Online
+49,2,1000,0,Online
+50,2,1000,0,Specialist retail
+51,2,250,0,Boutique
+52,2,1000,0,Online
+53,2,650,0,Specialist retail
+54,2,1100,0,Specialist retail
+55,2,600,0,Specialist retail
+56,2,800,0,Online
+57,2,850,0,Boutique
+58,2,950,0,Online
+59,2,550,0,Specialist retail
+60,2,850,0,Online
+61,3,3500,1,Online
+62,3,1250,1,Online
+63,3,1300,1,Boutique
+64,3,2100,0,Online
+65,3,3200,1,Boutique
+66,3,2550,1,Specialist retail
+67,3,3450,1,Boutique
+68,3,2250,1,Online
+69,3,2800,1,Specialist retail
+70,3,1050,0,Specialist retail
+71,3,2150,1,Online
+72,3,2150,0,Boutique
+73,3,3100,1,Boutique
+74,3,2600,0,Online
+75,3,2300,1,Boutique
+76,3,2250,1,Specialist retail
+77,3,1450,0,Boutique
+78,3,2800,1,Online
+79,3,2400,1,Boutique
+80,3,2200,1,Boutique
+81,3,3100,1,Online
+82,3,3600,1,Online
+83,3,1300,1,Specialist retail
+84,3,1850,1,Boutique
+85,3,1850,1,Online
+86,3,3300,1,Specialist retail
+87,3,2300,1,Specialist retail
+88,3,1400,1,Online
+89,3,2750,1,Specialist retail
+90,3,2000,1,Online
+91,4,550,0,Boutique
+92,4,400,0,Boutique
+93,4,500,0,Online
+94,4,550,0,Online
+95,4,600,0,Online
+96,4,350,0,Online
+97,4,250,0,Boutique
+98,4,900,0,Specialist retail
+99,4,350,0,Online
+100,4,750,0,Online
+101,4,550,0,Online
+102,4,950,0,Online
+103,4,700,0,Boutique
+104,4,550,0,Boutique
+105,4,500,0,Online
+106,4,550,0,Boutique
+107,4,800,0,Online
+108,4,700,0,Online
+109,4,450,0,Boutique
+110,4,550,0,Boutique
+111,4,600,0,Online
+112,4,800,0,Online
+113,4,550,0,Specialist retail
+114,4,600,0,Online
+115,4,700,0,Online
+116,4,800,0,Specialist retail
+117,4,650,0,Specialist retail
+118,4,400,0,Specialist retail
+119,4,550,0,Online
+120,4,700,0,Online

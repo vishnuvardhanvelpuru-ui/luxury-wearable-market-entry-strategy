@@ -1,0 +1,58 @@
+// Create each measure separately using Modeling > New measure.
+// Place them in Forecast, except customer measures which can live in SegmentAnalysis.
+// All outputs are synthetic. Single strategy and scenario are required for finance.
+Selection Valid = INT(HASONEVALUE(Strategy[strategy_id]) && HASONEVALUE(Scenario[scenario_id]))
+
+Wearable Units = IF([Selection Valid] = 1, SUM(Forecast[units]))
+
+Company Revenue = IF([Selection Valid] = 1, SUM(Forecast[revenue]))
+
+Variable Cost = IF([Selection Valid] = 1, SUM(Forecast[variable_cost]))
+
+Direct Contribution = IF([Selection Valid] = 1, [Company Revenue] - [Variable Cost])
+
+Direct Margin = DIVIDE([Direct Contribution], [Company Revenue])
+
+Fixed Cost = IF([Selection Valid] = 1, SUM(Forecast[fixed_cost]))
+
+Mechanical Loss = IF([Selection Valid] = 1, SUM(Forecast[cannibalization_loss]))
+
+Brand Loss = IF([Selection Valid] = 1, SUM(Forecast[brand_loss]))
+
+Operating Cash = IF([Selection Valid] = 1, [Company Revenue] - [Variable Cost] - [Fixed Cost] - [Mechanical Loss] - [Brand Loss])
+
+// NPV always covers all three years, even if a Year filter exists elsewhere.
+NPV 3Y =
+IF([Selection Valid] = 1,
+ CALCULATE(
+  SUMX(Forecast,
+   DIVIDE(Forecast[revenue]-Forecast[variable_cost]-Forecast[fixed_cost]-Forecast[cannibalization_loss]-Forecast[brand_loss],
+    POWER(1+MAX(Assumptions[discount_rate]),Forecast[period]))),
+  REMOVEFILTERS('Year'))
+ - SELECTEDVALUE(Strategy[initial_investment]))
+
+No Entry NPV = 0
+
+Max Displacement 3Y = IF([Selection Valid] = 1, CALCULATE(MAX(Forecast[cannibalization_pct]),REMOVEFILTERS('Year')))
+
+Brand Haircut = IF([Selection Valid] = 1, CALCULATE(MAX(Forecast[brand_haircut]),REMOVEFILTERS('Year')))
+
+Risk Gate = IF([Selection Valid] = 1,
+ IF([Max Displacement 3Y] <= MAX(Assumptions[max_cannibalization]) && [Brand Haircut] <= MAX(Assumptions[max_brand_haircut]),"Within limits","Outside limits"))
+
+Decision Gate = IF([Selection Valid] = 1, IF([NPV 3Y]>0 && [Risk Gate]="Within limits","Eligible for diligence","Do not launch"))
+
+Sample N = IF(HASONEVALUE(Strategy[strategy_id]),SUM(SegmentAnalysis[sample_n]))
+
+Qualified N = IF(HASONEVALUE(Strategy[strategy_id]),SUM(SegmentAnalysis[qualified_n]))
+
+Qualified Rate = DIVIDE([Qualified N],[Sample N])
+
+Reachable Audience = IF(HASONEVALUE(Strategy[strategy_id]), SUM(SegmentAnalysis[reachable_buyers]))
+
+Base Annual Units = IF(HASONEVALUE(Strategy[strategy_id]),SUM(SegmentAnalysis[base_annual_units]))
+
+Mean WTP = IF(HASONEVALUE(Strategy[strategy_id]),DIVIDE(SUMX(SegmentAnalysis,SegmentAnalysis[mean_wtp]*SegmentAnalysis[sample_n]),[Sample N]))
+
+// Quality measure should be zero, apart from floating-point noise.
+Cash Reconciliation = IF([Selection Valid] = 1,[Operating Cash]-SUM(Forecast[operating_cash]))

@@ -1,0 +1,23 @@
+[
+  {
+    "dataset": "segment_analysis",
+    "rows": 20,
+    "max_absolute_error": 3.333333370392211e-05,
+    "tolerance": 0.011,
+    "result": "PASS"
+  },
+  {
+    "dataset": "forecast",
+    "rows": 45,
+    "max_absolute_error": 5.820766091346741e-10,
+    "tolerance": 0.011,
+    "result": "PASS"
+  },
+  {
+    "dataset": "strategy_summary",
+    "rows": 15,
+    "max_absolute_error": 1.862645149230957e-09,
+    "tolerance": 0.011,
+    "result": "PASS"
+  }
+]

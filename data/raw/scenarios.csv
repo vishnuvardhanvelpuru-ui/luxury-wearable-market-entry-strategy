@@ -1,0 +1,4 @@
+scenario_id,scenario,volume_factor,cost_factor,risk_factor
+1,Downside,0.7,1.1,1.5
+2,Base,1,1,1
+3,Upside,1.2,0.95,0.75

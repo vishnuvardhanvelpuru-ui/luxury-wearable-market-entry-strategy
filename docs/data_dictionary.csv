@@ -1,0 +1,88 @@
+table,column,type,unit,definition,source
+segments,segment_id,integer,count / identifier,segment id,Synthetic assumption or synthetic record
+segments,segment,text,label,segment,Synthetic assumption or synthetic record
+segments,reachable_buyers,integer,count / identifier,reachable buyers,Synthetic assumption or synthetic record
+segments,wtp_mean,integer,USD,wtp mean,Synthetic assumption or synthetic record
+segments,interest_mean,decimal,count / identifier,interest mean,Synthetic assumption or synthetic record
+strategies,strategy_id,integer,fraction or multiplier,strategy id,Synthetic assumption or synthetic record
+strategies,strategy,text,fraction or multiplier,strategy,Synthetic assumption or synthetic record
+strategies,price,integer,USD,Retail test price,Synthetic assumption or synthetic record
+strategies,realization,decimal,fraction or multiplier,Manufacturer realization or royalty fraction,Synthetic assumption or synthetic record
+strategies,unit_cogs,integer,count / identifier,Hardware cost per unit,Synthetic assumption or synthetic record
+strategies,unit_service,integer,count / identifier,Returns warranty service reserve per unit,Synthetic assumption or synthetic record
+strategies,unit_acquisition,integer,count / identifier,Acquisition cost per unit,Synthetic assumption or synthetic record
+strategies,initial_investment,integer,USD,Time-zero launch investment,Synthetic assumption or synthetic record
+strategies,annual_fixed,integer,count / identifier,Recurring team software overhead,Synthetic assumption or synthetic record
+strategies,cannibalization_rate,decimal,fraction or multiplier,Mechanical units lost per wearable,Synthetic assumption or synthetic record
+strategies,brand_haircut,decimal,fraction or multiplier,Residual mechanical contribution haircut,Synthetic assumption or synthetic record
+strategies,demand_factor,decimal,fraction or multiplier,Demand realization multiplier,Synthetic assumption or synthetic record
+scenarios,scenario_id,integer,count / identifier,scenario id,Synthetic assumption or synthetic record
+scenarios,scenario,text,label,scenario,Synthetic assumption or synthetic record
+scenarios,volume_factor,decimal,fraction or multiplier,volume factor,Synthetic assumption or synthetic record
+scenarios,cost_factor,decimal,USD,cost factor,Synthetic assumption or synthetic record
+scenarios,risk_factor,decimal,fraction or multiplier,risk factor,Synthetic assumption or synthetic record
+years,year,integer,count / identifier,year,Synthetic assumption or synthetic record
+years,period,integer,count / identifier,Years after time zero,Synthetic assumption or synthetic record
+years,ramp,decimal,fraction or multiplier,Year-specific volume multiplier,Synthetic assumption or synthetic record
+assumptions,assumption_id,integer,count / identifier,assumption id,Synthetic assumption or synthetic record
+assumptions,discount_rate,decimal,fraction or multiplier,Annual pre-tax hurdle rate,Synthetic assumption or synthetic record
+assumptions,conversion_calibration,decimal,fraction or multiplier,Qualified-audience purchase calibration,Synthetic assumption or synthetic record
+assumptions,mechanical_units,integer,count / identifier,Annual no-entry baseline units,Synthetic assumption or synthetic record
+assumptions,mechanical_net_price,integer,USD,Mechanical manufacturer revenue per unit,Synthetic assumption or synthetic record
+assumptions,mechanical_margin,decimal,fraction or multiplier,Mechanical contribution margin,Synthetic assumption or synthetic record
+assumptions,max_cannibalization,decimal,fraction or multiplier,Annual displaced baseline-unit share limit,Synthetic assumption or synthetic record
+assumptions,max_brand_haircut,decimal,fraction or multiplier,Brand haircut limit,Synthetic assumption or synthetic record
+respondents,respondent_id,integer,count / identifier,respondent id,Synthetic assumption or synthetic record
+respondents,segment_id,integer,count / identifier,segment id,Synthetic assumption or synthetic record
+respondents,max_wtp,integer,USD,Respondent maximum willingness to pay,Synthetic assumption or synthetic record
+respondents,heritage_owner,integer,count / identifier,heritage owner,Synthetic assumption or synthetic record
+respondents,preferred_channel,text,label,preferred channel,Synthetic assumption or synthetic record
+responses,respondent_id,integer,count / identifier,respondent id,Synthetic assumption or synthetic record
+responses,strategy_id,integer,fraction or multiplier,strategy id,Synthetic assumption or synthetic record
+responses,interested,integer,count / identifier,interested,Synthetic assumption or synthetic record
+segment_analysis,strategy_id,integer,fraction or multiplier,strategy id,Calculated scenario output
+segment_analysis,segment_id,integer,count / identifier,segment id,Calculated scenario output
+segment_analysis,sample_n,integer,count / identifier,sample n,Calculated scenario output
+segment_analysis,interested_n,integer,count / identifier,interested n,Calculated scenario output
+segment_analysis,qualified_n,integer,count / identifier,qualified n,Calculated scenario output
+segment_analysis,qualified_rate,decimal,fraction or multiplier,Interested and affordable divided by sample,Calculated scenario output
+segment_analysis,mean_wtp,decimal,USD,mean wtp,Calculated scenario output
+segment_analysis,reachable_buyers,integer,count / identifier,reachable buyers,Calculated scenario output
+segment_analysis,base_annual_units,decimal,count / identifier,Calibrated annual units before year/scenario factors,Calculated scenario output
+forecast,strategy_id,integer,fraction or multiplier,strategy id,Calculated scenario output
+forecast,scenario_id,integer,count / identifier,scenario id,Calculated scenario output
+forecast,year,integer,count / identifier,year,Calculated scenario output
+forecast,period,integer,count / identifier,Years after time zero,Calculated scenario output
+forecast,units,integer,count / identifier,units,Calculated scenario output
+forecast,revenue,decimal,USD,revenue,Calculated scenario output
+forecast,variable_cost,decimal,USD,variable cost,Calculated scenario output
+forecast,fixed_cost,integer,USD,fixed cost,Calculated scenario output
+forecast,lost_mechanical_units,decimal,count / identifier,lost mechanical units,Calculated scenario output
+forecast,cannibalization_loss,decimal,USD,cannibalization loss,Calculated scenario output
+forecast,brand_loss,decimal,USD,brand loss,Calculated scenario output
+forecast,operating_cash,decimal,USD,Incremental pre-tax operating cash proxy,Calculated scenario output
+forecast,discounted_cash,decimal,USD,Operating cash discounted by period,Calculated scenario output
+forecast,cannibalization_pct,decimal,fraction or multiplier,cannibalization pct,Calculated scenario output
+forecast,brand_haircut,decimal,fraction or multiplier,Residual mechanical contribution haircut,Calculated scenario output
+summary,strategy_id,integer,fraction or multiplier,strategy id,Calculated scenario output
+summary,scenario_id,integer,count / identifier,scenario id,Calculated scenario output
+summary,npv,decimal,USD,Discounted cash less time-zero investment,Calculated scenario output
+summary,total_units,integer,count / identifier,total units,Calculated scenario output
+summary,total_revenue,decimal,USD,total revenue,Calculated scenario output
+summary,total_cannibalization_loss,decimal,USD,total cannibalization loss,Calculated scenario output
+summary,total_brand_loss,decimal,USD,total brand loss,Calculated scenario output
+summary,max_cannibalization_pct,decimal,fraction or multiplier,max cannibalization pct,Calculated scenario output
+summary,max_brand_haircut,decimal,fraction or multiplier,Brand haircut limit,Calculated scenario output
+pricing,price,integer,USD,Retail test price,Calculated scenario output
+pricing,qualified_n,integer,count / identifier,qualified n,Calculated scenario output
+pricing,base_annual_units,decimal,count / identifier,Calibrated annual units before year/scenario factors,Calculated scenario output
+pricing,net_unit_contribution,decimal,USD,net unit contribution,Calculated scenario output
+pricing,npv,decimal,USD,Discounted cash less time-zero investment,Calculated scenario output
+thresholds,strategy_id,integer,fraction or multiplier,strategy id,Calculated scenario output
+thresholds,risk_adjusted_unit_contribution,decimal,USD,risk adjusted unit contribution,Calculated scenario output
+thresholds,base_annual_units,decimal,count / identifier,Calibrated annual units before year/scenario factors,Calculated scenario output
+thresholds,break_even_volume_multiple,decimal,fraction or multiplier,break even volume multiple,Calculated scenario output
+thresholds,max_volume_multiple_for_cannibalization,decimal,fraction or multiplier,max volume multiple for cannibalization,Calculated scenario output
+sensitivity,strategy_id,integer,fraction or multiplier,strategy id,Calculated scenario output
+sensitivity,volume_multiple,decimal,fraction or multiplier,volume multiple,Calculated scenario output
+sensitivity,npv,decimal,USD,Discounted cash less time-zero investment,Calculated scenario output

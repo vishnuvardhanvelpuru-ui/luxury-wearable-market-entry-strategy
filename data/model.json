@@ -1,0 +1,5381 @@
+{
+  "raw": {
+    "segments": [
+      {
+        "segment_id": 1,
+        "segment": "Design-led professionals",
+        "reachable_buyers": 45000,
+        "wtp_mean": 1300,
+        "interest_mean": 0.76
+      },
+      {
+        "segment_id": 2,
+        "segment": "Wellness enthusiasts",
+        "reachable_buyers": 55000,
+        "wtp_mean": 850,
+        "interest_mean": 0.85
+      },
+      {
+        "segment_id": 3,
+        "segment": "Heritage collectors",
+        "reachable_buyers": 20000,
+        "wtp_mean": 2200,
+        "interest_mean": 0.43
+      },
+      {
+        "segment_id": 4,
+        "segment": "Value-focused tech buyers",
+        "reachable_buyers": 80000,
+        "wtp_mean": 550,
+        "interest_mean": 0.82
+      }
+    ],
+    "strategies": [
+      {
+        "strategy_id": 1,
+        "strategy": "Heritage extension",
+        "price": 1800,
+        "realization": 0.86,
+        "unit_cogs": 620,
+        "unit_service": 100,
+        "unit_acquisition": 90,
+        "initial_investment": 3000000,
+        "annual_fixed": 1500000,
+        "cannibalization_rate": 0.06,
+        "brand_haircut": 0.015,
+        "demand_factor": 0.9
+      },
+      {
+        "strategy_id": 2,
+        "strategy": "Separate sibling brand",
+        "price": 950,
+        "realization": 0.88,
+        "unit_cogs": 330,
+        "unit_service": 75,
+        "unit_acquisition": 95,
+        "initial_investment": 4000000,
+        "annual_fixed": 1800000,
+        "cannibalization_rate": 0.012,
+        "brand_haircut": 0.002,
+        "demand_factor": 1
+      },
+      {
+        "strategy_id": 3,
+        "strategy": "Co-brand partnership",
+        "price": 1250,
+        "realization": 0.78,
+        "unit_cogs": 430,
+        "unit_service": 65,
+        "unit_acquisition": 55,
+        "initial_investment": 2000000,
+        "annual_fixed": 1100000,
+        "cannibalization_rate": 0.022,
+        "brand_haircut": 0.006,
+        "demand_factor": 1.05
+      },
+      {
+        "strategy_id": 4,
+        "strategy": "Heritage licensing",
+        "price": 800,
+        "realization": 0.1,
+        "unit_cogs": 0,
+        "unit_service": 8,
+        "unit_acquisition": 0,
+        "initial_investment": 600000,
+        "annual_fixed": 350000,
+        "cannibalization_rate": 0.035,
+        "brand_haircut": 0.012,
+        "demand_factor": 1.2
+      },
+      {
+        "strategy_id": 5,
+        "strategy": "Modular hybrid",
+        "price": 1500,
+        "realization": 0.86,
+        "unit_cogs": 540,
+        "unit_service": 90,
+        "unit_acquisition": 65,
+        "initial_investment": 2500000,
+        "annual_fixed": 1100000,
+        "cannibalization_rate": 0.018,
+        "brand_haircut": 0.004,
+        "demand_factor": 0.85
+      }
+    ],
+    "scenarios": [
+      {
+        "scenario_id": 1,
+        "scenario": "Downside",
+        "volume_factor": 0.7,
+        "cost_factor": 1.1,
+        "risk_factor": 1.5
+      },
+      {
+        "scenario_id": 2,
+        "scenario": "Base",
+        "volume_factor": 1,
+        "cost_factor": 1,
+        "risk_factor": 1
+      },
+      {
+        "scenario_id": 3,
+        "scenario": "Upside",
+        "volume_factor": 1.2,
+        "cost_factor": 0.95,
+        "risk_factor": 0.75
+      }
+    ],
+    "years": [
+      {
+        "year": 2027,
+        "period": 1,
+        "ramp": 0.6
+      },
+      {
+        "year": 2028,
+        "period": 2,
+        "ramp": 1
+      },
+      {
+        "year": 2029,
+        "period": 3,
+        "ramp": 1.3
+      }
+    ],
+    "assumptions": [
+      {
+        "assumption_id": 1,
+        "discount_rate": 0.12,
+        "conversion_calibration": 0.12,
+        "mechanical_units": 10000,
+        "mechanical_net_price": 6000,
+        "mechanical_margin": 0.65,
+        "max_cannibalization": 0.02,
+        "max_brand_haircut": 0.005
+      }
+    ],
+    "respondents": [
+      {
+        "respondent_id": 1,
+        "segment_id": 1,
+        "max_wtp": 1100,
+        "heritage_owner": 0,
+        "preferred_channel": "Boutique"
+      },
+      {
+        "respondent_id": 2,
+        "segment_id": 1,
+        "max_wtp": 1050,
+        "heritage_owner": 0,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 3,
+        "segment_id": 1,
+        "max_wtp": 1000,
+        "heritage_owner": 1,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 4,
+        "segment_id": 1,
+        "max_wtp": 700,
+        "heritage_owner": 0,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 5,
+        "segment_id": 1,
+        "max_wtp": 1100,
+        "heritage_owner": 0,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 6,
+        "segment_id": 1,
+        "max_wtp": 1150,
+        "heritage_owner": 0,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 7,
+        "segment_id": 1,
+        "max_wtp": 1000,
+        "heritage_owner": 0,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 8,
+        "segment_id": 1,
+        "max_wtp": 950,
+        "heritage_owner": 1,
+        "preferred_channel": "Specialist retail"
+      },
+      {
+        "respondent_id": 9,
+        "segment_id": 1,
+        "max_wtp": 650,
+        "heritage_owner": 1,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 10,
+        "segment_id": 1,
+        "max_wtp": 1850,
+        "heritage_owner": 0,
+        "preferred_channel": "Boutique"
+      },
+      {
+        "respondent_id": 11,
+        "segment_id": 1,
+        "max_wtp": 1250,
+        "heritage_owner": 0,
+        "preferred_channel": "Boutique"
+      },
+      {
+        "respondent_id": 12,
+        "segment_id": 1,
+        "max_wtp": 1500,
+        "heritage_owner": 1,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 13,
+        "segment_id": 1,
+        "max_wtp": 1150,
+        "heritage_owner": 0,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 14,
+        "segment_id": 1,
+        "max_wtp": 1500,
+        "heritage_owner": 0,
+        "preferred_channel": "Specialist retail"
+      },
+      {
+        "respondent_id": 15,
+        "segment_id": 1,
+        "max_wtp": 2150,
+        "heritage_owner": 0,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 16,
+        "segment_id": 1,
+        "max_wtp": 1050,
+        "heritage_owner": 0,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 17,
+        "segment_id": 1,
+        "max_wtp": 1300,
+        "heritage_owner": 0,
+        "preferred_channel": "Specialist retail"
+      },
+      {
+        "respondent_id": 18,
+        "segment_id": 1,
+        "max_wtp": 1200,
+        "heritage_owner": 0,
+        "preferred_channel": "Boutique"
+      },
+      {
+        "respondent_id": 19,
+        "segment_id": 1,
+        "max_wtp": 1750,
+        "heritage_owner": 1,
+        "preferred_channel": "Boutique"
+      },
+      {
+        "respondent_id": 20,
+        "segment_id": 1,
+        "max_wtp": 700,
+        "heritage_owner": 0,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 21,
+        "segment_id": 1,
+        "max_wtp": 1900,
+        "heritage_owner": 0,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 22,
+        "segment_id": 1,
+        "max_wtp": 1250,
+        "heritage_owner": 0,
+        "preferred_channel": "Specialist retail"
+      },
+      {
+        "respondent_id": 23,
+        "segment_id": 1,
+        "max_wtp": 900,
+        "heritage_owner": 0,
+        "preferred_channel": "Boutique"
+      },
+      {
+        "respondent_id": 24,
+        "segment_id": 1,
+        "max_wtp": 1400,
+        "heritage_owner": 0,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 25,
+        "segment_id": 1,
+        "max_wtp": 2200,
+        "heritage_owner": 0,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 26,
+        "segment_id": 1,
+        "max_wtp": 1150,
+        "heritage_owner": 0,
+        "preferred_channel": "Specialist retail"
+      },
+      {
+        "respondent_id": 27,
+        "segment_id": 1,
+        "max_wtp": 1350,
+        "heritage_owner": 0,
+        "preferred_channel": "Boutique"
+      },
+      {
+        "respondent_id": 28,
+        "segment_id": 1,
+        "max_wtp": 1850,
+        "heritage_owner": 0,
+        "preferred_channel": "Specialist retail"
+      },
+      {
+        "respondent_id": 29,
+        "segment_id": 1,
+        "max_wtp": 1100,
+        "heritage_owner": 0,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 30,
+        "segment_id": 1,
+        "max_wtp": 1450,
+        "heritage_owner": 1,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 31,
+        "segment_id": 2,
+        "max_wtp": 1000,
+        "heritage_owner": 0,
+        "preferred_channel": "Boutique"
+      },
+      {
+        "respondent_id": 32,
+        "segment_id": 2,
+        "max_wtp": 650,
+        "heritage_owner": 0,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 33,
+        "segment_id": 2,
+        "max_wtp": 500,
+        "heritage_owner": 1,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 34,
+        "segment_id": 2,
+        "max_wtp": 700,
+        "heritage_owner": 1,
+        "preferred_channel": "Boutique"
+      },
+      {
+        "respondent_id": 35,
+        "segment_id": 2,
+        "max_wtp": 1050,
+        "heritage_owner": 0,
+        "preferred_channel": "Boutique"
+      },
+      {
+        "respondent_id": 36,
+        "segment_id": 2,
+        "max_wtp": 900,
+        "heritage_owner": 0,
+        "preferred_channel": "Specialist retail"
+      },
+      {
+        "respondent_id": 37,
+        "segment_id": 2,
+        "max_wtp": 1000,
+        "heritage_owner": 0,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 38,
+        "segment_id": 2,
+        "max_wtp": 1000,
+        "heritage_owner": 0,
+        "preferred_channel": "Specialist retail"
+      },
+      {
+        "respondent_id": 39,
+        "segment_id": 2,
+        "max_wtp": 750,
+        "heritage_owner": 0,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 40,
+        "segment_id": 2,
+        "max_wtp": 950,
+        "heritage_owner": 1,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 41,
+        "segment_id": 2,
+        "max_wtp": 950,
+        "heritage_owner": 1,
+        "preferred_channel": "Boutique"
+      },
+      {
+        "respondent_id": 42,
+        "segment_id": 2,
+        "max_wtp": 700,
+        "heritage_owner": 0,
+        "preferred_channel": "Boutique"
+      },
+      {
+        "respondent_id": 43,
+        "segment_id": 2,
+        "max_wtp": 600,
+        "heritage_owner": 0,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 44,
+        "segment_id": 2,
+        "max_wtp": 1000,
+        "heritage_owner": 0,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 45,
+        "segment_id": 2,
+        "max_wtp": 900,
+        "heritage_owner": 0,
+        "preferred_channel": "Specialist retail"
+      },
+      {
+        "respondent_id": 46,
+        "segment_id": 2,
+        "max_wtp": 1150,
+        "heritage_owner": 0,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 47,
+        "segment_id": 2,
+        "max_wtp": 650,
+        "heritage_owner": 0,
+        "preferred_channel": "Specialist retail"
+      },
+      {
+        "respondent_id": 48,
+        "segment_id": 2,
+        "max_wtp": 1000,
+        "heritage_owner": 0,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 49,
+        "segment_id": 2,
+        "max_wtp": 1000,
+        "heritage_owner": 0,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 50,
+        "segment_id": 2,
+        "max_wtp": 1000,
+        "heritage_owner": 0,
+        "preferred_channel": "Specialist retail"
+      },
+      {
+        "respondent_id": 51,
+        "segment_id": 2,
+        "max_wtp": 250,
+        "heritage_owner": 0,
+        "preferred_channel": "Boutique"
+      },
+      {
+        "respondent_id": 52,
+        "segment_id": 2,
+        "max_wtp": 1000,
+        "heritage_owner": 0,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 53,
+        "segment_id": 2,
+        "max_wtp": 650,
+        "heritage_owner": 0,
+        "preferred_channel": "Specialist retail"
+      },
+      {
+        "respondent_id": 54,
+        "segment_id": 2,
+        "max_wtp": 1100,
+        "heritage_owner": 0,
+        "preferred_channel": "Specialist retail"
+      },
+      {
+        "respondent_id": 55,
+        "segment_id": 2,
+        "max_wtp": 600,
+        "heritage_owner": 0,
+        "preferred_channel": "Specialist retail"
+      },
+      {
+        "respondent_id": 56,
+        "segment_id": 2,
+        "max_wtp": 800,
+        "heritage_owner": 0,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 57,
+        "segment_id": 2,
+        "max_wtp": 850,
+        "heritage_owner": 0,
+        "preferred_channel": "Boutique"
+      },
+      {
+        "respondent_id": 58,
+        "segment_id": 2,
+        "max_wtp": 950,
+        "heritage_owner": 0,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 59,
+        "segment_id": 2,
+        "max_wtp": 550,
+        "heritage_owner": 0,
+        "preferred_channel": "Specialist retail"
+      },
+      {
+        "respondent_id": 60,
+        "segment_id": 2,
+        "max_wtp": 850,
+        "heritage_owner": 0,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 61,
+        "segment_id": 3,
+        "max_wtp": 3500,
+        "heritage_owner": 1,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 62,
+        "segment_id": 3,
+        "max_wtp": 1250,
+        "heritage_owner": 1,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 63,
+        "segment_id": 3,
+        "max_wtp": 1300,
+        "heritage_owner": 1,
+        "preferred_channel": "Boutique"
+      },
+      {
+        "respondent_id": 64,
+        "segment_id": 3,
+        "max_wtp": 2100,
+        "heritage_owner": 0,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 65,
+        "segment_id": 3,
+        "max_wtp": 3200,
+        "heritage_owner": 1,
+        "preferred_channel": "Boutique"
+      },
+      {
+        "respondent_id": 66,
+        "segment_id": 3,
+        "max_wtp": 2550,
+        "heritage_owner": 1,
+        "preferred_channel": "Specialist retail"
+      },
+      {
+        "respondent_id": 67,
+        "segment_id": 3,
+        "max_wtp": 3450,
+        "heritage_owner": 1,
+        "preferred_channel": "Boutique"
+      },
+      {
+        "respondent_id": 68,
+        "segment_id": 3,
+        "max_wtp": 2250,
+        "heritage_owner": 1,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 69,
+        "segment_id": 3,
+        "max_wtp": 2800,
+        "heritage_owner": 1,
+        "preferred_channel": "Specialist retail"
+      },
+      {
+        "respondent_id": 70,
+        "segment_id": 3,
+        "max_wtp": 1050,
+        "heritage_owner": 0,
+        "preferred_channel": "Specialist retail"
+      },
+      {
+        "respondent_id": 71,
+        "segment_id": 3,
+        "max_wtp": 2150,
+        "heritage_owner": 1,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 72,
+        "segment_id": 3,
+        "max_wtp": 2150,
+        "heritage_owner": 0,
+        "preferred_channel": "Boutique"
+      },
+      {
+        "respondent_id": 73,
+        "segment_id": 3,
+        "max_wtp": 3100,
+        "heritage_owner": 1,
+        "preferred_channel": "Boutique"
+      },
+      {
+        "respondent_id": 74,
+        "segment_id": 3,
+        "max_wtp": 2600,
+        "heritage_owner": 0,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 75,
+        "segment_id": 3,
+        "max_wtp": 2300,
+        "heritage_owner": 1,
+        "preferred_channel": "Boutique"
+      },
+      {
+        "respondent_id": 76,
+        "segment_id": 3,
+        "max_wtp": 2250,
+        "heritage_owner": 1,
+        "preferred_channel": "Specialist retail"
+      },
+      {
+        "respondent_id": 77,
+        "segment_id": 3,
+        "max_wtp": 1450,
+        "heritage_owner": 0,
+        "preferred_channel": "Boutique"
+      },
+      {
+        "respondent_id": 78,
+        "segment_id": 3,
+        "max_wtp": 2800,
+        "heritage_owner": 1,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 79,
+        "segment_id": 3,
+        "max_wtp": 2400,
+        "heritage_owner": 1,
+        "preferred_channel": "Boutique"
+      },
+      {
+        "respondent_id": 80,
+        "segment_id": 3,
+        "max_wtp": 2200,
+        "heritage_owner": 1,
+        "preferred_channel": "Boutique"
+      },
+      {
+        "respondent_id": 81,
+        "segment_id": 3,
+        "max_wtp": 3100,
+        "heritage_owner": 1,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 82,
+        "segment_id": 3,
+        "max_wtp": 3600,
+        "heritage_owner": 1,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 83,
+        "segment_id": 3,
+        "max_wtp": 1300,
+        "heritage_owner": 1,
+        "preferred_channel": "Specialist retail"
+      },
+      {
+        "respondent_id": 84,
+        "segment_id": 3,
+        "max_wtp": 1850,
+        "heritage_owner": 1,
+        "preferred_channel": "Boutique"
+      },
+      {
+        "respondent_id": 85,
+        "segment_id": 3,
+        "max_wtp": 1850,
+        "heritage_owner": 1,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 86,
+        "segment_id": 3,
+        "max_wtp": 3300,
+        "heritage_owner": 1,
+        "preferred_channel": "Specialist retail"
+      },
+      {
+        "respondent_id": 87,
+        "segment_id": 3,
+        "max_wtp": 2300,
+        "heritage_owner": 1,
+        "preferred_channel": "Specialist retail"
+      },
+      {
+        "respondent_id": 88,
+        "segment_id": 3,
+        "max_wtp": 1400,
+        "heritage_owner": 1,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 89,
+        "segment_id": 3,
+        "max_wtp": 2750,
+        "heritage_owner": 1,
+        "preferred_channel": "Specialist retail"
+      },
+      {
+        "respondent_id": 90,
+        "segment_id": 3,
+        "max_wtp": 2000,
+        "heritage_owner": 1,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 91,
+        "segment_id": 4,
+        "max_wtp": 550,
+        "heritage_owner": 0,
+        "preferred_channel": "Boutique"
+      },
+      {
+        "respondent_id": 92,
+        "segment_id": 4,
+        "max_wtp": 400,
+        "heritage_owner": 0,
+        "preferred_channel": "Boutique"
+      },
+      {
+        "respondent_id": 93,
+        "segment_id": 4,
+        "max_wtp": 500,
+        "heritage_owner": 0,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 94,
+        "segment_id": 4,
+        "max_wtp": 550,
+        "heritage_owner": 0,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 95,
+        "segment_id": 4,
+        "max_wtp": 600,
+        "heritage_owner": 0,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 96,
+        "segment_id": 4,
+        "max_wtp": 350,
+        "heritage_owner": 0,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 97,
+        "segment_id": 4,
+        "max_wtp": 250,
+        "heritage_owner": 0,
+        "preferred_channel": "Boutique"
+      },
+      {
+        "respondent_id": 98,
+        "segment_id": 4,
+        "max_wtp": 900,
+        "heritage_owner": 0,
+        "preferred_channel": "Specialist retail"
+      },
+      {
+        "respondent_id": 99,
+        "segment_id": 4,
+        "max_wtp": 350,
+        "heritage_owner": 0,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 100,
+        "segment_id": 4,
+        "max_wtp": 750,
+        "heritage_owner": 0,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 101,
+        "segment_id": 4,
+        "max_wtp": 550,
+        "heritage_owner": 0,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 102,
+        "segment_id": 4,
+        "max_wtp": 950,
+        "heritage_owner": 0,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 103,
+        "segment_id": 4,
+        "max_wtp": 700,
+        "heritage_owner": 0,
+        "preferred_channel": "Boutique"
+      },
+      {
+        "respondent_id": 104,
+        "segment_id": 4,
+        "max_wtp": 550,
+        "heritage_owner": 0,
+        "preferred_channel": "Boutique"
+      },
+      {
+        "respondent_id": 105,
+        "segment_id": 4,
+        "max_wtp": 500,
+        "heritage_owner": 0,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 106,
+        "segment_id": 4,
+        "max_wtp": 550,
+        "heritage_owner": 0,
+        "preferred_channel": "Boutique"
+      },
+      {
+        "respondent_id": 107,
+        "segment_id": 4,
+        "max_wtp": 800,
+        "heritage_owner": 0,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 108,
+        "segment_id": 4,
+        "max_wtp": 700,
+        "heritage_owner": 0,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 109,
+        "segment_id": 4,
+        "max_wtp": 450,
+        "heritage_owner": 0,
+        "preferred_channel": "Boutique"
+      },
+      {
+        "respondent_id": 110,
+        "segment_id": 4,
+        "max_wtp": 550,
+        "heritage_owner": 0,
+        "preferred_channel": "Boutique"
+      },
+      {
+        "respondent_id": 111,
+        "segment_id": 4,
+        "max_wtp": 600,
+        "heritage_owner": 0,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 112,
+        "segment_id": 4,
+        "max_wtp": 800,
+        "heritage_owner": 0,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 113,
+        "segment_id": 4,
+        "max_wtp": 550,
+        "heritage_owner": 0,
+        "preferred_channel": "Specialist retail"
+      },
+      {
+        "respondent_id": 114,
+        "segment_id": 4,
+        "max_wtp": 600,
+        "heritage_owner": 0,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 115,
+        "segment_id": 4,
+        "max_wtp": 700,
+        "heritage_owner": 0,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 116,
+        "segment_id": 4,
+        "max_wtp": 800,
+        "heritage_owner": 0,
+        "preferred_channel": "Specialist retail"
+      },
+      {
+        "respondent_id": 117,
+        "segment_id": 4,
+        "max_wtp": 650,
+        "heritage_owner": 0,
+        "preferred_channel": "Specialist retail"
+      },
+      {
+        "respondent_id": 118,
+        "segment_id": 4,
+        "max_wtp": 400,
+        "heritage_owner": 0,
+        "preferred_channel": "Specialist retail"
+      },
+      {
+        "respondent_id": 119,
+        "segment_id": 4,
+        "max_wtp": 550,
+        "heritage_owner": 0,
+        "preferred_channel": "Online"
+      },
+      {
+        "respondent_id": 120,
+        "segment_id": 4,
+        "max_wtp": 700,
+        "heritage_owner": 0,
+        "preferred_channel": "Online"
+      }
+    ],
+    "responses": [
+      {
+        "respondent_id": 1,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 1,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 1,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 1,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 1,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 2,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 2,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 2,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 2,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 2,
+        "strategy_id": 5,
+        "interested": 0
+      },
+      {
+        "respondent_id": 3,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 3,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 3,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 3,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 3,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 4,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 4,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 4,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 4,
+        "strategy_id": 4,
+        "interested": 0
+      },
+      {
+        "respondent_id": 4,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 5,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 5,
+        "strategy_id": 2,
+        "interested": 0
+      },
+      {
+        "respondent_id": 5,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 5,
+        "strategy_id": 4,
+        "interested": 0
+      },
+      {
+        "respondent_id": 5,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 6,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 6,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 6,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 6,
+        "strategy_id": 4,
+        "interested": 0
+      },
+      {
+        "respondent_id": 6,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 7,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 7,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 7,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 7,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 7,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 8,
+        "strategy_id": 1,
+        "interested": 0
+      },
+      {
+        "respondent_id": 8,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 8,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 8,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 8,
+        "strategy_id": 5,
+        "interested": 0
+      },
+      {
+        "respondent_id": 9,
+        "strategy_id": 1,
+        "interested": 0
+      },
+      {
+        "respondent_id": 9,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 9,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 9,
+        "strategy_id": 4,
+        "interested": 0
+      },
+      {
+        "respondent_id": 9,
+        "strategy_id": 5,
+        "interested": 0
+      },
+      {
+        "respondent_id": 10,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 10,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 10,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 10,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 10,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 11,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 11,
+        "strategy_id": 2,
+        "interested": 0
+      },
+      {
+        "respondent_id": 11,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 11,
+        "strategy_id": 4,
+        "interested": 0
+      },
+      {
+        "respondent_id": 11,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 12,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 12,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 12,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 12,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 12,
+        "strategy_id": 5,
+        "interested": 0
+      },
+      {
+        "respondent_id": 13,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 13,
+        "strategy_id": 2,
+        "interested": 0
+      },
+      {
+        "respondent_id": 13,
+        "strategy_id": 3,
+        "interested": 0
+      },
+      {
+        "respondent_id": 13,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 13,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 14,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 14,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 14,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 14,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 14,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 15,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 15,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 15,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 15,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 15,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 16,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 16,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 16,
+        "strategy_id": 3,
+        "interested": 0
+      },
+      {
+        "respondent_id": 16,
+        "strategy_id": 4,
+        "interested": 0
+      },
+      {
+        "respondent_id": 16,
+        "strategy_id": 5,
+        "interested": 0
+      },
+      {
+        "respondent_id": 17,
+        "strategy_id": 1,
+        "interested": 0
+      },
+      {
+        "respondent_id": 17,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 17,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 17,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 17,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 18,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 18,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 18,
+        "strategy_id": 3,
+        "interested": 0
+      },
+      {
+        "respondent_id": 18,
+        "strategy_id": 4,
+        "interested": 0
+      },
+      {
+        "respondent_id": 18,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 19,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 19,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 19,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 19,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 19,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 20,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 20,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 20,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 20,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 20,
+        "strategy_id": 5,
+        "interested": 0
+      },
+      {
+        "respondent_id": 21,
+        "strategy_id": 1,
+        "interested": 0
+      },
+      {
+        "respondent_id": 21,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 21,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 21,
+        "strategy_id": 4,
+        "interested": 0
+      },
+      {
+        "respondent_id": 21,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 22,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 22,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 22,
+        "strategy_id": 3,
+        "interested": 0
+      },
+      {
+        "respondent_id": 22,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 22,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 23,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 23,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 23,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 23,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 23,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 24,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 24,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 24,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 24,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 24,
+        "strategy_id": 5,
+        "interested": 0
+      },
+      {
+        "respondent_id": 25,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 25,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 25,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 25,
+        "strategy_id": 4,
+        "interested": 0
+      },
+      {
+        "respondent_id": 25,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 26,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 26,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 26,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 26,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 26,
+        "strategy_id": 5,
+        "interested": 0
+      },
+      {
+        "respondent_id": 27,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 27,
+        "strategy_id": 2,
+        "interested": 0
+      },
+      {
+        "respondent_id": 27,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 27,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 27,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 28,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 28,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 28,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 28,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 28,
+        "strategy_id": 5,
+        "interested": 0
+      },
+      {
+        "respondent_id": 29,
+        "strategy_id": 1,
+        "interested": 0
+      },
+      {
+        "respondent_id": 29,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 29,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 29,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 29,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 30,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 30,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 30,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 30,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 30,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 31,
+        "strategy_id": 1,
+        "interested": 0
+      },
+      {
+        "respondent_id": 31,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 31,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 31,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 31,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 32,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 32,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 32,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 32,
+        "strategy_id": 4,
+        "interested": 0
+      },
+      {
+        "respondent_id": 32,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 33,
+        "strategy_id": 1,
+        "interested": 0
+      },
+      {
+        "respondent_id": 33,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 33,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 33,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 33,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 34,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 34,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 34,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 34,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 34,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 35,
+        "strategy_id": 1,
+        "interested": 0
+      },
+      {
+        "respondent_id": 35,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 35,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 35,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 35,
+        "strategy_id": 5,
+        "interested": 0
+      },
+      {
+        "respondent_id": 36,
+        "strategy_id": 1,
+        "interested": 0
+      },
+      {
+        "respondent_id": 36,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 36,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 36,
+        "strategy_id": 4,
+        "interested": 0
+      },
+      {
+        "respondent_id": 36,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 37,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 37,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 37,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 37,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 37,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 38,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 38,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 38,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 38,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 38,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 39,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 39,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 39,
+        "strategy_id": 3,
+        "interested": 0
+      },
+      {
+        "respondent_id": 39,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 39,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 40,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 40,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 40,
+        "strategy_id": 3,
+        "interested": 0
+      },
+      {
+        "respondent_id": 40,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 40,
+        "strategy_id": 5,
+        "interested": 0
+      },
+      {
+        "respondent_id": 41,
+        "strategy_id": 1,
+        "interested": 0
+      },
+      {
+        "respondent_id": 41,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 41,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 41,
+        "strategy_id": 4,
+        "interested": 0
+      },
+      {
+        "respondent_id": 41,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 42,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 42,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 42,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 42,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 42,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 43,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 43,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 43,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 43,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 43,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 44,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 44,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 44,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 44,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 44,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 45,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 45,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 45,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 45,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 45,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 46,
+        "strategy_id": 1,
+        "interested": 0
+      },
+      {
+        "respondent_id": 46,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 46,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 46,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 46,
+        "strategy_id": 5,
+        "interested": 0
+      },
+      {
+        "respondent_id": 47,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 47,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 47,
+        "strategy_id": 3,
+        "interested": 0
+      },
+      {
+        "respondent_id": 47,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 47,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 48,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 48,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 48,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 48,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 48,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 49,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 49,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 49,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 49,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 49,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 50,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 50,
+        "strategy_id": 2,
+        "interested": 0
+      },
+      {
+        "respondent_id": 50,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 50,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 50,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 51,
+        "strategy_id": 1,
+        "interested": 0
+      },
+      {
+        "respondent_id": 51,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 51,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 51,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 51,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 52,
+        "strategy_id": 1,
+        "interested": 0
+      },
+      {
+        "respondent_id": 52,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 52,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 52,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 52,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 53,
+        "strategy_id": 1,
+        "interested": 0
+      },
+      {
+        "respondent_id": 53,
+        "strategy_id": 2,
+        "interested": 0
+      },
+      {
+        "respondent_id": 53,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 53,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 53,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 54,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 54,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 54,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 54,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 54,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 55,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 55,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 55,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 55,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 55,
+        "strategy_id": 5,
+        "interested": 0
+      },
+      {
+        "respondent_id": 56,
+        "strategy_id": 1,
+        "interested": 0
+      },
+      {
+        "respondent_id": 56,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 56,
+        "strategy_id": 3,
+        "interested": 0
+      },
+      {
+        "respondent_id": 56,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 56,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 57,
+        "strategy_id": 1,
+        "interested": 0
+      },
+      {
+        "respondent_id": 57,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 57,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 57,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 57,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 58,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 58,
+        "strategy_id": 2,
+        "interested": 0
+      },
+      {
+        "respondent_id": 58,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 58,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 58,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 59,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 59,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 59,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 59,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 59,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 60,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 60,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 60,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 60,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 60,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 61,
+        "strategy_id": 1,
+        "interested": 0
+      },
+      {
+        "respondent_id": 61,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 61,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 61,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 61,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 62,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 62,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 62,
+        "strategy_id": 3,
+        "interested": 0
+      },
+      {
+        "respondent_id": 62,
+        "strategy_id": 4,
+        "interested": 0
+      },
+      {
+        "respondent_id": 62,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 63,
+        "strategy_id": 1,
+        "interested": 0
+      },
+      {
+        "respondent_id": 63,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 63,
+        "strategy_id": 3,
+        "interested": 0
+      },
+      {
+        "respondent_id": 63,
+        "strategy_id": 4,
+        "interested": 0
+      },
+      {
+        "respondent_id": 63,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 64,
+        "strategy_id": 1,
+        "interested": 0
+      },
+      {
+        "respondent_id": 64,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 64,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 64,
+        "strategy_id": 4,
+        "interested": 0
+      },
+      {
+        "respondent_id": 64,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 65,
+        "strategy_id": 1,
+        "interested": 0
+      },
+      {
+        "respondent_id": 65,
+        "strategy_id": 2,
+        "interested": 0
+      },
+      {
+        "respondent_id": 65,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 65,
+        "strategy_id": 4,
+        "interested": 0
+      },
+      {
+        "respondent_id": 65,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 66,
+        "strategy_id": 1,
+        "interested": 0
+      },
+      {
+        "respondent_id": 66,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 66,
+        "strategy_id": 3,
+        "interested": 0
+      },
+      {
+        "respondent_id": 66,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 66,
+        "strategy_id": 5,
+        "interested": 0
+      },
+      {
+        "respondent_id": 67,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 67,
+        "strategy_id": 2,
+        "interested": 0
+      },
+      {
+        "respondent_id": 67,
+        "strategy_id": 3,
+        "interested": 0
+      },
+      {
+        "respondent_id": 67,
+        "strategy_id": 4,
+        "interested": 0
+      },
+      {
+        "respondent_id": 67,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 68,
+        "strategy_id": 1,
+        "interested": 0
+      },
+      {
+        "respondent_id": 68,
+        "strategy_id": 2,
+        "interested": 0
+      },
+      {
+        "respondent_id": 68,
+        "strategy_id": 3,
+        "interested": 0
+      },
+      {
+        "respondent_id": 68,
+        "strategy_id": 4,
+        "interested": 0
+      },
+      {
+        "respondent_id": 68,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 69,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 69,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 69,
+        "strategy_id": 3,
+        "interested": 0
+      },
+      {
+        "respondent_id": 69,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 69,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 70,
+        "strategy_id": 1,
+        "interested": 0
+      },
+      {
+        "respondent_id": 70,
+        "strategy_id": 2,
+        "interested": 0
+      },
+      {
+        "respondent_id": 70,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 70,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 70,
+        "strategy_id": 5,
+        "interested": 0
+      },
+      {
+        "respondent_id": 71,
+        "strategy_id": 1,
+        "interested": 0
+      },
+      {
+        "respondent_id": 71,
+        "strategy_id": 2,
+        "interested": 0
+      },
+      {
+        "respondent_id": 71,
+        "strategy_id": 3,
+        "interested": 0
+      },
+      {
+        "respondent_id": 71,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 71,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 72,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 72,
+        "strategy_id": 2,
+        "interested": 0
+      },
+      {
+        "respondent_id": 72,
+        "strategy_id": 3,
+        "interested": 0
+      },
+      {
+        "respondent_id": 72,
+        "strategy_id": 4,
+        "interested": 0
+      },
+      {
+        "respondent_id": 72,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 73,
+        "strategy_id": 1,
+        "interested": 0
+      },
+      {
+        "respondent_id": 73,
+        "strategy_id": 2,
+        "interested": 0
+      },
+      {
+        "respondent_id": 73,
+        "strategy_id": 3,
+        "interested": 0
+      },
+      {
+        "respondent_id": 73,
+        "strategy_id": 4,
+        "interested": 0
+      },
+      {
+        "respondent_id": 73,
+        "strategy_id": 5,
+        "interested": 0
+      },
+      {
+        "respondent_id": 74,
+        "strategy_id": 1,
+        "interested": 0
+      },
+      {
+        "respondent_id": 74,
+        "strategy_id": 2,
+        "interested": 0
+      },
+      {
+        "respondent_id": 74,
+        "strategy_id": 3,
+        "interested": 0
+      },
+      {
+        "respondent_id": 74,
+        "strategy_id": 4,
+        "interested": 0
+      },
+      {
+        "respondent_id": 74,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 75,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 75,
+        "strategy_id": 2,
+        "interested": 0
+      },
+      {
+        "respondent_id": 75,
+        "strategy_id": 3,
+        "interested": 0
+      },
+      {
+        "respondent_id": 75,
+        "strategy_id": 4,
+        "interested": 0
+      },
+      {
+        "respondent_id": 75,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 76,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 76,
+        "strategy_id": 2,
+        "interested": 0
+      },
+      {
+        "respondent_id": 76,
+        "strategy_id": 3,
+        "interested": 0
+      },
+      {
+        "respondent_id": 76,
+        "strategy_id": 4,
+        "interested": 0
+      },
+      {
+        "respondent_id": 76,
+        "strategy_id": 5,
+        "interested": 0
+      },
+      {
+        "respondent_id": 77,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 77,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 77,
+        "strategy_id": 3,
+        "interested": 0
+      },
+      {
+        "respondent_id": 77,
+        "strategy_id": 4,
+        "interested": 0
+      },
+      {
+        "respondent_id": 77,
+        "strategy_id": 5,
+        "interested": 0
+      },
+      {
+        "respondent_id": 78,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 78,
+        "strategy_id": 2,
+        "interested": 0
+      },
+      {
+        "respondent_id": 78,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 78,
+        "strategy_id": 4,
+        "interested": 0
+      },
+      {
+        "respondent_id": 78,
+        "strategy_id": 5,
+        "interested": 0
+      },
+      {
+        "respondent_id": 79,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 79,
+        "strategy_id": 2,
+        "interested": 0
+      },
+      {
+        "respondent_id": 79,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 79,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 79,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 80,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 80,
+        "strategy_id": 2,
+        "interested": 0
+      },
+      {
+        "respondent_id": 80,
+        "strategy_id": 3,
+        "interested": 0
+      },
+      {
+        "respondent_id": 80,
+        "strategy_id": 4,
+        "interested": 0
+      },
+      {
+        "respondent_id": 80,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 81,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 81,
+        "strategy_id": 2,
+        "interested": 0
+      },
+      {
+        "respondent_id": 81,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 81,
+        "strategy_id": 4,
+        "interested": 0
+      },
+      {
+        "respondent_id": 81,
+        "strategy_id": 5,
+        "interested": 0
+      },
+      {
+        "respondent_id": 82,
+        "strategy_id": 1,
+        "interested": 0
+      },
+      {
+        "respondent_id": 82,
+        "strategy_id": 2,
+        "interested": 0
+      },
+      {
+        "respondent_id": 82,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 82,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 82,
+        "strategy_id": 5,
+        "interested": 0
+      },
+      {
+        "respondent_id": 83,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 83,
+        "strategy_id": 2,
+        "interested": 0
+      },
+      {
+        "respondent_id": 83,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 83,
+        "strategy_id": 4,
+        "interested": 0
+      },
+      {
+        "respondent_id": 83,
+        "strategy_id": 5,
+        "interested": 0
+      },
+      {
+        "respondent_id": 84,
+        "strategy_id": 1,
+        "interested": 0
+      },
+      {
+        "respondent_id": 84,
+        "strategy_id": 2,
+        "interested": 0
+      },
+      {
+        "respondent_id": 84,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 84,
+        "strategy_id": 4,
+        "interested": 0
+      },
+      {
+        "respondent_id": 84,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 85,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 85,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 85,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 85,
+        "strategy_id": 4,
+        "interested": 0
+      },
+      {
+        "respondent_id": 85,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 86,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 86,
+        "strategy_id": 2,
+        "interested": 0
+      },
+      {
+        "respondent_id": 86,
+        "strategy_id": 3,
+        "interested": 0
+      },
+      {
+        "respondent_id": 86,
+        "strategy_id": 4,
+        "interested": 0
+      },
+      {
+        "respondent_id": 86,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 87,
+        "strategy_id": 1,
+        "interested": 0
+      },
+      {
+        "respondent_id": 87,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 87,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 87,
+        "strategy_id": 4,
+        "interested": 0
+      },
+      {
+        "respondent_id": 87,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 88,
+        "strategy_id": 1,
+        "interested": 0
+      },
+      {
+        "respondent_id": 88,
+        "strategy_id": 2,
+        "interested": 0
+      },
+      {
+        "respondent_id": 88,
+        "strategy_id": 3,
+        "interested": 0
+      },
+      {
+        "respondent_id": 88,
+        "strategy_id": 4,
+        "interested": 0
+      },
+      {
+        "respondent_id": 88,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 89,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 89,
+        "strategy_id": 2,
+        "interested": 0
+      },
+      {
+        "respondent_id": 89,
+        "strategy_id": 3,
+        "interested": 0
+      },
+      {
+        "respondent_id": 89,
+        "strategy_id": 4,
+        "interested": 0
+      },
+      {
+        "respondent_id": 89,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 90,
+        "strategy_id": 1,
+        "interested": 0
+      },
+      {
+        "respondent_id": 90,
+        "strategy_id": 2,
+        "interested": 0
+      },
+      {
+        "respondent_id": 90,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 90,
+        "strategy_id": 4,
+        "interested": 0
+      },
+      {
+        "respondent_id": 90,
+        "strategy_id": 5,
+        "interested": 0
+      },
+      {
+        "respondent_id": 91,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 91,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 91,
+        "strategy_id": 3,
+        "interested": 0
+      },
+      {
+        "respondent_id": 91,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 91,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 92,
+        "strategy_id": 1,
+        "interested": 0
+      },
+      {
+        "respondent_id": 92,
+        "strategy_id": 2,
+        "interested": 0
+      },
+      {
+        "respondent_id": 92,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 92,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 92,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 93,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 93,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 93,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 93,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 93,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 94,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 94,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 94,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 94,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 94,
+        "strategy_id": 5,
+        "interested": 0
+      },
+      {
+        "respondent_id": 95,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 95,
+        "strategy_id": 2,
+        "interested": 0
+      },
+      {
+        "respondent_id": 95,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 95,
+        "strategy_id": 4,
+        "interested": 0
+      },
+      {
+        "respondent_id": 95,
+        "strategy_id": 5,
+        "interested": 0
+      },
+      {
+        "respondent_id": 96,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 96,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 96,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 96,
+        "strategy_id": 4,
+        "interested": 0
+      },
+      {
+        "respondent_id": 96,
+        "strategy_id": 5,
+        "interested": 0
+      },
+      {
+        "respondent_id": 97,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 97,
+        "strategy_id": 2,
+        "interested": 0
+      },
+      {
+        "respondent_id": 97,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 97,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 97,
+        "strategy_id": 5,
+        "interested": 0
+      },
+      {
+        "respondent_id": 98,
+        "strategy_id": 1,
+        "interested": 0
+      },
+      {
+        "respondent_id": 98,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 98,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 98,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 98,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 99,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 99,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 99,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 99,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 99,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 100,
+        "strategy_id": 1,
+        "interested": 0
+      },
+      {
+        "respondent_id": 100,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 100,
+        "strategy_id": 3,
+        "interested": 0
+      },
+      {
+        "respondent_id": 100,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 100,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 101,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 101,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 101,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 101,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 101,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 102,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 102,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 102,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 102,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 102,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 103,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 103,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 103,
+        "strategy_id": 3,
+        "interested": 0
+      },
+      {
+        "respondent_id": 103,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 103,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 104,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 104,
+        "strategy_id": 2,
+        "interested": 0
+      },
+      {
+        "respondent_id": 104,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 104,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 104,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 105,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 105,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 105,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 105,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 105,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 106,
+        "strategy_id": 1,
+        "interested": 0
+      },
+      {
+        "respondent_id": 106,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 106,
+        "strategy_id": 3,
+        "interested": 0
+      },
+      {
+        "respondent_id": 106,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 106,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 107,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 107,
+        "strategy_id": 2,
+        "interested": 0
+      },
+      {
+        "respondent_id": 107,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 107,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 107,
+        "strategy_id": 5,
+        "interested": 0
+      },
+      {
+        "respondent_id": 108,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 108,
+        "strategy_id": 2,
+        "interested": 0
+      },
+      {
+        "respondent_id": 108,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 108,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 108,
+        "strategy_id": 5,
+        "interested": 0
+      },
+      {
+        "respondent_id": 109,
+        "strategy_id": 1,
+        "interested": 0
+      },
+      {
+        "respondent_id": 109,
+        "strategy_id": 2,
+        "interested": 0
+      },
+      {
+        "respondent_id": 109,
+        "strategy_id": 3,
+        "interested": 0
+      },
+      {
+        "respondent_id": 109,
+        "strategy_id": 4,
+        "interested": 0
+      },
+      {
+        "respondent_id": 109,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 110,
+        "strategy_id": 1,
+        "interested": 0
+      },
+      {
+        "respondent_id": 110,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 110,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 110,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 110,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 111,
+        "strategy_id": 1,
+        "interested": 0
+      },
+      {
+        "respondent_id": 111,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 111,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 111,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 111,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 112,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 112,
+        "strategy_id": 2,
+        "interested": 0
+      },
+      {
+        "respondent_id": 112,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 112,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 112,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 113,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 113,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 113,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 113,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 113,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 114,
+        "strategy_id": 1,
+        "interested": 0
+      },
+      {
+        "respondent_id": 114,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 114,
+        "strategy_id": 3,
+        "interested": 0
+      },
+      {
+        "respondent_id": 114,
+        "strategy_id": 4,
+        "interested": 0
+      },
+      {
+        "respondent_id": 114,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 115,
+        "strategy_id": 1,
+        "interested": 0
+      },
+      {
+        "respondent_id": 115,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 115,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 115,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 115,
+        "strategy_id": 5,
+        "interested": 0
+      },
+      {
+        "respondent_id": 116,
+        "strategy_id": 1,
+        "interested": 0
+      },
+      {
+        "respondent_id": 116,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 116,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 116,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 116,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 117,
+        "strategy_id": 1,
+        "interested": 0
+      },
+      {
+        "respondent_id": 117,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 117,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 117,
+        "strategy_id": 4,
+        "interested": 0
+      },
+      {
+        "respondent_id": 117,
+        "strategy_id": 5,
+        "interested": 1
+      },
+      {
+        "respondent_id": 118,
+        "strategy_id": 1,
+        "interested": 0
+      },
+      {
+        "respondent_id": 118,
+        "strategy_id": 2,
+        "interested": 0
+      },
+      {
+        "respondent_id": 118,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 118,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 118,
+        "strategy_id": 5,
+        "interested": 0
+      },
+      {
+        "respondent_id": 119,
+        "strategy_id": 1,
+        "interested": 1
+      },
+      {
+        "respondent_id": 119,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 119,
+        "strategy_id": 3,
+        "interested": 0
+      },
+      {
+        "respondent_id": 119,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 119,
+        "strategy_id": 5,
+        "interested": 0
+      },
+      {
+        "respondent_id": 120,
+        "strategy_id": 1,
+        "interested": 0
+      },
+      {
+        "respondent_id": 120,
+        "strategy_id": 2,
+        "interested": 1
+      },
+      {
+        "respondent_id": 120,
+        "strategy_id": 3,
+        "interested": 1
+      },
+      {
+        "respondent_id": 120,
+        "strategy_id": 4,
+        "interested": 1
+      },
+      {
+        "respondent_id": 120,
+        "strategy_id": 5,
+        "interested": 1
+      }
+    ]
+  },
+  "segment_analysis": [
+    {
+      "strategy_id": 1,
+      "segment_id": 1,
+      "sample_n": 30,
+      "interested_n": 25,
+      "qualified_n": 4,
+      "qualified_rate": 0.13333333333333333,
+      "mean_wtp": 1288.3333333333333,
+      "reachable_buyers": 45000,
+      "base_annual_units": 648.0
+    },
+    {
+      "strategy_id": 1,
+      "segment_id": 2,
+      "sample_n": 30,
+      "interested_n": 19,
+      "qualified_n": 0,
+      "qualified_rate": 0.0,
+      "mean_wtp": 835.0,
+      "reachable_buyers": 55000,
+      "base_annual_units": 0.0
+    },
+    {
+      "strategy_id": 1,
+      "segment_id": 3,
+      "sample_n": 30,
+      "interested_n": 15,
+      "qualified_n": 12,
+      "qualified_rate": 0.4,
+      "mean_wtp": 2343.3333333333335,
+      "reachable_buyers": 20000,
+      "base_annual_units": 864.0
+    },
+    {
+      "strategy_id": 1,
+      "segment_id": 4,
+      "sample_n": 30,
+      "interested_n": 17,
+      "qualified_n": 0,
+      "qualified_rate": 0.0,
+      "mean_wtp": 595.0,
+      "reachable_buyers": 80000,
+      "base_annual_units": 0.0
+    },
+    {
+      "strategy_id": 2,
+      "segment_id": 1,
+      "sample_n": 30,
+      "interested_n": 26,
+      "qualified_n": 22,
+      "qualified_rate": 0.7333333333333333,
+      "mean_wtp": 1288.3333333333333,
+      "reachable_buyers": 45000,
+      "base_annual_units": 3960.0
+    },
+    {
+      "strategy_id": 2,
+      "segment_id": 2,
+      "sample_n": 30,
+      "interested_n": 27,
+      "qualified_n": 12,
+      "qualified_rate": 0.4,
+      "mean_wtp": 835.0,
+      "reachable_buyers": 55000,
+      "base_annual_units": 2640.0
+    },
+    {
+      "strategy_id": 2,
+      "segment_id": 3,
+      "sample_n": 30,
+      "interested_n": 9,
+      "qualified_n": 9,
+      "qualified_rate": 0.3,
+      "mean_wtp": 2343.3333333333335,
+      "reachable_buyers": 20000,
+      "base_annual_units": 720.0
+    },
+    {
+      "strategy_id": 2,
+      "segment_id": 4,
+      "sample_n": 30,
+      "interested_n": 21,
+      "qualified_n": 1,
+      "qualified_rate": 0.03333333333333333,
+      "mean_wtp": 595.0,
+      "reachable_buyers": 80000,
+      "base_annual_units": 319.99999999999994
+    },
+    {
+      "strategy_id": 3,
+      "segment_id": 1,
+      "sample_n": 30,
+      "interested_n": 26,
+      "qualified_n": 13,
+      "qualified_rate": 0.43333333333333335,
+      "mean_wtp": 1288.3333333333333,
+      "reachable_buyers": 45000,
+      "base_annual_units": 2457.0
+    },
+    {
+      "strategy_id": 3,
+      "segment_id": 2,
+      "sample_n": 30,
+      "interested_n": 26,
+      "qualified_n": 0,
+      "qualified_rate": 0.0,
+      "mean_wtp": 835.0,
+      "reachable_buyers": 55000,
+      "base_annual_units": 0.0
+    },
+    {
+      "strategy_id": 3,
+      "segment_id": 3,
+      "sample_n": 30,
+      "interested_n": 13,
+      "qualified_n": 12,
+      "qualified_rate": 0.4,
+      "mean_wtp": 2343.3333333333335,
+      "reachable_buyers": 20000,
+      "base_annual_units": 1008.0
+    },
+    {
+      "strategy_id": 3,
+      "segment_id": 4,
+      "sample_n": 30,
+      "interested_n": 23,
+      "qualified_n": 0,
+      "qualified_rate": 0.0,
+      "mean_wtp": 595.0,
+      "reachable_buyers": 80000,
+      "base_annual_units": 0.0
+    },
+    {
+      "strategy_id": 4,
+      "segment_id": 1,
+      "sample_n": 30,
+      "interested_n": 21,
+      "qualified_n": 20,
+      "qualified_rate": 0.6666666666666666,
+      "mean_wtp": 1288.3333333333333,
+      "reachable_buyers": 45000,
+      "base_annual_units": 4320.0
+    },
+    {
+      "strategy_id": 4,
+      "segment_id": 2,
+      "sample_n": 30,
+      "interested_n": 27,
+      "qualified_n": 17,
+      "qualified_rate": 0.5666666666666667,
+      "mean_wtp": 835.0,
+      "reachable_buyers": 55000,
+      "base_annual_units": 4488.0
+    },
+    {
+      "strategy_id": 4,
+      "segment_id": 3,
+      "sample_n": 30,
+      "interested_n": 7,
+      "qualified_n": 7,
+      "qualified_rate": 0.23333333333333334,
+      "mean_wtp": 2343.3333333333335,
+      "reachable_buyers": 20000,
+      "base_annual_units": 672.0
+    },
+    {
+      "strategy_id": 4,
+      "segment_id": 4,
+      "sample_n": 30,
+      "interested_n": 25,
+      "qualified_n": 5,
+      "qualified_rate": 0.16666666666666666,
+      "mean_wtp": 595.0,
+      "reachable_buyers": 80000,
+      "base_annual_units": 1920.0
+    },
+    {
+      "strategy_id": 5,
+      "segment_id": 1,
+      "sample_n": 30,
+      "interested_n": 21,
+      "qualified_n": 6,
+      "qualified_rate": 0.2,
+      "mean_wtp": 1288.3333333333333,
+      "reachable_buyers": 45000,
+      "base_annual_units": 918.0
+    },
+    {
+      "strategy_id": 5,
+      "segment_id": 2,
+      "sample_n": 30,
+      "interested_n": 26,
+      "qualified_n": 0,
+      "qualified_rate": 0.0,
+      "mean_wtp": 835.0,
+      "reachable_buyers": 55000,
+      "base_annual_units": 0.0
+    },
+    {
+      "strategy_id": 5,
+      "segment_id": 3,
+      "sample_n": 30,
+      "interested_n": 20,
+      "qualified_n": 17,
+      "qualified_rate": 0.5666666666666667,
+      "mean_wtp": 2343.3333333333335,
+      "reachable_buyers": 20000,
+      "base_annual_units": 1156.0
+    },
+    {
+      "strategy_id": 5,
+      "segment_id": 4,
+      "sample_n": 30,
+      "interested_n": 21,
+      "qualified_n": 0,
+      "qualified_rate": 0.0,
+      "mean_wtp": 595.0,
+      "reachable_buyers": 80000,
+      "base_annual_units": 0.0
+    }
+  ],
+  "forecast": [
+    {
+      "strategy_id": 1,
+      "scenario_id": 1,
+      "year": 2027,
+      "period": 1,
+      "units": 635,
+      "revenue": 982980.0,
+      "variable_cost": 565785.0,
+      "fixed_cost": 1500000,
+      "lost_mechanical_units": 57.150000000000006,
+      "cannibalization_loss": 222885.00000000006,
+      "brand_loss": 872485.0874999999,
+      "operating_cash": -2178175.0875,
+      "discounted_cash": -1944799.1852678568,
+      "cannibalization_pct": 0.0057150000000000005,
+      "brand_haircut": 0.0225
+    },
+    {
+      "strategy_id": 1,
+      "scenario_id": 1,
+      "year": 2028,
+      "period": 2,
+      "units": 1058,
+      "revenue": 1637784.0,
+      "variable_cost": 942678.0000000001,
+      "fixed_cost": 1500000,
+      "lost_mechanical_units": 95.22,
+      "cannibalization_loss": 371358.0,
+      "brand_loss": 869144.4450000002,
+      "operating_cash": -2045396.4450000003,
+      "discounted_cash": -1630577.5231186224,
+      "cannibalization_pct": 0.009522,
+      "brand_haircut": 0.0225
+    },
+    {
+      "strategy_id": 1,
+      "scenario_id": 1,
+      "year": 2029,
+      "period": 3,
+      "units": 1376,
+      "revenue": 2130048.0,
+      "variable_cost": 1226016.0,
+      "fixed_cost": 1500000,
+      "lost_mechanical_units": 123.84,
+      "cannibalization_loss": 482976.0,
+      "brand_loss": 866633.04,
+      "operating_cash": -1945577.04,
+      "discounted_cash": -1384823.3076712824,
+      "cannibalization_pct": 0.012384000000000001,
+      "brand_haircut": 0.0225
+    },
+    {
+      "strategy_id": 1,
+      "scenario_id": 2,
+      "year": 2027,
+      "period": 1,
+      "units": 907,
+      "revenue": 1404036.0,
+      "variable_cost": 734670,
+      "fixed_cost": 1500000,
+      "lost_mechanical_units": 54.419999999999995,
+      "cannibalization_loss": 212237.99999999997,
+      "brand_loss": 581816.4299999999,
+      "operating_cash": -1624688.43,
+      "discounted_cash": -1450614.669642857,
+      "cannibalization_pct": 0.005442,
+      "brand_haircut": 0.015
+    },
+    {
+      "strategy_id": 1,
+      "scenario_id": 2,
+      "year": 2028,
+      "period": 2,
+      "units": 1512,
+      "revenue": 2340576.0,
+      "variable_cost": 1224720,
+      "fixed_cost": 1500000,
+      "lost_mechanical_units": 90.72,
+      "cannibalization_loss": 353808.0,
+      "brand_loss": 579692.8800000001,
+      "operating_cash": -1317644.8800000001,
+      "discounted_cash": -1050418.431122449,
+      "cannibalization_pct": 0.009072,
+      "brand_haircut": 0.015
+    },
+    {
+      "strategy_id": 1,
+      "scenario_id": 2,
+      "year": 2029,
+      "period": 3,
+      "units": 1966,
+      "revenue": 3043368.0,
+      "variable_cost": 1592460,
+      "fixed_cost": 1500000,
+      "lost_mechanical_units": 117.96,
+      "cannibalization_loss": 460044.0,
+      "brand_loss": 578099.3400000001,
+      "operating_cash": -1087235.34,
+      "discounted_cash": -773872.6397366981,
+      "cannibalization_pct": 0.011796,
+      "brand_haircut": 0.015
+    },
+    {
+      "strategy_id": 1,
+      "scenario_id": 3,
+      "year": 2027,
+      "period": 1,
+      "units": 1089,
+      "revenue": 1685772.0,
+      "variable_cost": 837985.5,
+      "fixed_cost": 1500000,
+      "lost_mechanical_units": 49.005,
+      "cannibalization_loss": 191119.5,
+      "brand_loss": 436599.90562500013,
+      "operating_cash": -1279932.9056250001,
+      "discounted_cash": -1142797.2371651786,
+      "cannibalization_pct": 0.0049005,
+      "brand_haircut": 0.01125
+    },
+    {
+      "strategy_id": 1,
+      "scenario_id": 3,
+      "year": 2028,
+      "period": 2,
+      "units": 1814,
+      "revenue": 2808072.0,
+      "variable_cost": 1395873.0,
+      "fixed_cost": 1500000,
+      "lost_mechanical_units": 81.63,
+      "cannibalization_loss": 318357.0,
+      "brand_loss": 435168.48375000013,
+      "operating_cash": -841326.4837500001,
+      "discounted_cash": -670700.321867028,
+      "cannibalization_pct": 0.008163,
+      "brand_haircut": 0.01125
+    },
+    {
+      "strategy_id": 1,
+      "scenario_id": 3,
+      "year": 2029,
+      "period": 3,
+      "units": 2359,
+      "revenue": 3651732.0,
+      "variable_cost": 1815250.5,
+      "fixed_cost": 1500000,
+      "lost_mechanical_units": 106.155,
+      "cannibalization_loss": 414004.5,
+      "brand_loss": 434092.44937499997,
+      "operating_cash": -511615.44937499997,
+      "discounted_cash": -364157.77134130703,
+      "cannibalization_pct": 0.0106155,
+      "brand_haircut": 0.01125
+    },
+    {
+      "strategy_id": 2,
+      "scenario_id": 1,
+      "year": 2027,
+      "period": 1,
+      "units": 3209,
+      "revenue": 2682724.0,
+      "variable_cost": 1764950.0000000002,
+      "fixed_cost": 1800000,
+      "lost_mechanical_units": 57.762,
+      "cannibalization_loss": 225271.80000000002,
+      "brand_loss": 116324.1846,
+      "operating_cash": -1223821.9846000003,
+      "discounted_cash": -1092698.2005357144,
+      "cannibalization_pct": 0.0057762,
+      "brand_haircut": 0.003
+    },
+    {
+      "strategy_id": 2,
+      "scenario_id": 1,
+      "year": 2028,
+      "period": 2,
+      "units": 5348,
+      "revenue": 4470928.0,
+      "variable_cost": 2941400.0000000005,
+      "fixed_cost": 1800000,
+      "lost_mechanical_units": 96.26400000000001,
+      "cannibalization_loss": 375429.6000000001,
+      "brand_loss": 115873.71120000002,
+      "operating_cash": -761775.3112000006,
+      "discounted_cash": -607282.6141581637,
+      "cannibalization_pct": 0.0096264,
+      "brand_haircut": 0.003
+    },
+    {
+      "strategy_id": 2,
+      "scenario_id": 1,
+      "year": 2029,
+      "period": 3,
+      "units": 6952,
+      "revenue": 5811872.0,
+      "variable_cost": 3823600.0000000005,
+      "fixed_cost": 1800000,
+      "lost_mechanical_units": 125.13600000000001,
+      "cannibalization_loss": 488030.4000000001,
+      "brand_loss": 115535.9088,
+      "operating_cash": -415294.3088000006,
+      "discounted_cash": -295598.2860331636,
+      "cannibalization_pct": 0.012513600000000001,
+      "brand_haircut": 0.003
+    },
+    {
+      "strategy_id": 2,
+      "scenario_id": 2,
+      "year": 2027,
+      "period": 1,
+      "units": 4584,
+      "revenue": 3832224.0,
+      "variable_cost": 2292000,
+      "fixed_cost": 1800000,
+      "lost_mechanical_units": 55.008,
+      "cannibalization_loss": 214531.2,
+      "brand_loss": 77570.9376,
+      "operating_cash": -551878.1376,
+      "discounted_cash": -492748.3371428571,
+      "cannibalization_pct": 0.0055008,
+      "brand_haircut": 0.002
+    },
+    {
+      "strategy_id": 2,
+      "scenario_id": 2,
+      "year": 2028,
+      "period": 2,
+      "units": 7640,
+      "revenue": 6387040.0,
+      "variable_cost": 3820000,
+      "fixed_cost": 1800000,
+      "lost_mechanical_units": 91.68,
+      "cannibalization_loss": 357552.0,
+      "brand_loss": 77284.89600000001,
+      "operating_cash": 332203.104,
+      "discounted_cash": 264830.28061224485,
+      "cannibalization_pct": 0.009168,
+      "brand_haircut": 0.002
+    },
+    {
+      "strategy_id": 2,
+      "scenario_id": 2,
+      "year": 2029,
+      "period": 3,
+      "units": 9932,
+      "revenue": 8303152.0,
+      "variable_cost": 4966000,
+      "fixed_cost": 1800000,
+      "lost_mechanical_units": 119.184,
+      "cannibalization_loss": 464817.60000000003,
+      "brand_loss": 77070.36480000001,
+      "operating_cash": 995264.0351999999,
+      "discounted_cash": 708409.2816144312,
+      "cannibalization_pct": 0.0119184,
+      "brand_haircut": 0.002
+    },
+    {
+      "strategy_id": 2,
+      "scenario_id": 3,
+      "year": 2027,
+      "period": 1,
+      "units": 5501,
+      "revenue": 4598836.0,
+      "variable_cost": 2612975.0,
+      "fixed_cost": 1800000,
+      "lost_mechanical_units": 49.509,
+      "cannibalization_loss": 193085.1,
+      "brand_loss": 58210.37234999999,
+      "operating_cash": -65434.47235,
+      "discounted_cash": -58423.63602678571,
+      "cannibalization_pct": 0.0049509,
+      "brand_haircut": 0.0015
+    },
+    {
+      "strategy_id": 2,
+      "scenario_id": 3,
+      "year": 2028,
+      "period": 2,
+      "units": 9168,
+      "revenue": 7664448.0,
+      "variable_cost": 4354800.0,
+      "fixed_cost": 1800000,
+      "lost_mechanical_units": 82.512,
+      "cannibalization_loss": 321796.8,
+      "brand_loss": 58017.3048,
+      "operating_cash": 1129833.8952,
+      "discounted_cash": 900696.6639030611,
+      "cannibalization_pct": 0.0082512,
+      "brand_haircut": 0.0015
+    },
+    {
+      "strategy_id": 2,
+      "scenario_id": 3,
+      "year": 2029,
+      "period": 3,
+      "units": 11918,
+      "revenue": 9963448.0,
+      "variable_cost": 5661050.0,
+      "fixed_cost": 1800000,
+      "lost_mechanical_units": 107.262,
+      "cannibalization_loss": 418321.8,
+      "brand_loss": 57872.51729999999,
+      "operating_cash": 2026203.6827,
+      "discounted_cash": 1442211.7593926517,
+      "cannibalization_pct": 0.0107262,
+      "brand_haircut": 0.0015
+    },
+    {
+      "strategy_id": 3,
+      "scenario_id": 1,
+      "year": 2027,
+      "period": 1,
+      "units": 1455,
+      "revenue": 1418625.0,
+      "variable_cost": 880275.0000000001,
+      "fixed_cost": 1100000,
+      "lost_mechanical_units": 48.015,
+      "cannibalization_loss": 187258.5,
+      "brand_loss": 349314.6735,
+      "operating_cash": -1098223.1735,
+      "discounted_cash": -980556.4049107142,
+      "cannibalization_pct": 0.0048015,
+      "brand_haircut": 0.009000000000000001
+    },
+    {
+      "strategy_id": 3,
+      "scenario_id": 1,
+      "year": 2028,
+      "period": 2,
+      "units": 2426,
+      "revenue": 2365350.0,
+      "variable_cost": 1467730.0000000002,
+      "fixed_cost": 1100000,
+      "lost_mechanical_units": 80.05799999999999,
+      "cannibalization_loss": 312226.19999999995,
+      "brand_loss": 348189.9642,
+      "operating_cash": -862796.1642000002,
+      "discounted_cash": -687815.819674745,
+      "cannibalization_pct": 0.008005799999999999,
+      "brand_haircut": 0.009000000000000001
+    },
+    {
+      "strategy_id": 3,
+      "scenario_id": 1,
+      "year": 2029,
+      "period": 3,
+      "units": 3153,
+      "revenue": 3074175.0,
+      "variable_cost": 1907565.0000000002,
+      "fixed_cost": 1100000,
+      "lost_mechanical_units": 104.049,
+      "cannibalization_loss": 405791.10000000003,
+      "brand_loss": 347347.88009999995,
+      "operating_cash": -686528.9801000003,
+      "discounted_cash": -488657.76758666645,
+      "cannibalization_pct": 0.0104049,
+      "brand_haircut": 0.009000000000000001
+    },
+    {
+      "strategy_id": 3,
+      "scenario_id": 2,
+      "year": 2027,
+      "period": 1,
+      "units": 2079,
+      "revenue": 2027025.0,
+      "variable_cost": 1143450,
+      "fixed_cost": 1100000,
+      "lost_mechanical_units": 45.738,
+      "cannibalization_loss": 178378.2,
+      "brand_loss": 232929.73080000002,
+      "operating_cash": -627732.9308,
+      "discounted_cash": -560475.8310714285,
+      "cannibalization_pct": 0.0045738,
+      "brand_haircut": 0.006
+    },
+    {
+      "strategy_id": 3,
+      "scenario_id": 2,
+      "year": 2028,
+      "period": 2,
+      "units": 3465,
+      "revenue": 3378375.0,
+      "variable_cost": 1905750,
+      "fixed_cost": 1100000,
+      "lost_mechanical_units": 76.22999999999999,
+      "cannibalization_loss": 297297.0,
+      "brand_loss": 232216.218,
+      "operating_cash": -156888.218,
+      "discounted_cash": -125070.32684948978,
+      "cannibalization_pct": 0.007622999999999999,
+      "brand_haircut": 0.006
+    },
+    {
+      "strategy_id": 3,
+      "scenario_id": 2,
+      "year": 2029,
+      "period": 3,
+      "units": 4505,
+      "revenue": 4392375.0,
+      "variable_cost": 2477750,
+      "fixed_cost": 1100000,
+      "lost_mechanical_units": 99.11,
+      "cannibalization_loss": 386529.0,
+      "brand_loss": 231680.826,
+      "operating_cash": 196415.174,
+      "discounted_cash": 139804.4412240342,
+      "cannibalization_pct": 0.009911,
+      "brand_haircut": 0.006
+    },
+    {
+      "strategy_id": 3,
+      "scenario_id": 3,
+      "year": 2027,
+      "period": 1,
+      "units": 2495,
+      "revenue": 2432625.0,
+      "variable_cost": 1303637.5,
+      "fixed_cost": 1100000,
+      "lost_mechanical_units": 41.1675,
+      "cannibalization_loss": 160553.25,
+      "brand_loss": 174777.510375,
+      "operating_cash": -306343.260375,
+      "discounted_cash": -273520.76819196425,
+      "cannibalization_pct": 0.00411675,
+      "brand_haircut": 0.0045000000000000005
+    },
+    {
+      "strategy_id": 3,
+      "scenario_id": 3,
+      "year": 2028,
+      "period": 2,
+      "units": 4158,
+      "revenue": 4054050.0,
+      "variable_cost": 2172555.0,
+      "fixed_cost": 1100000,
+      "lost_mechanical_units": 68.607,
+      "cannibalization_loss": 267567.3,
+      "brand_loss": 174295.94715000002,
+      "operating_cash": 339631.75285,
+      "discounted_cash": 270752.3539939413,
+      "cannibalization_pct": 0.0068607,
+      "brand_haircut": 0.0045000000000000005
+    },
+    {
+      "strategy_id": 3,
+      "scenario_id": 3,
+      "year": 2029,
+      "period": 3,
+      "units": 5405,
+      "revenue": 5269875.0,
+      "variable_cost": 2824112.5,
+      "fixed_cost": 1100000,
+      "lost_mechanical_units": 89.1825,
+      "cannibalization_loss": 347811.75,
+      "brand_loss": 173934.847125,
+      "operating_cash": 824015.902875,
+      "discounted_cash": 586518.243550559,
+      "cannibalization_pct": 0.00891825,
+      "brand_haircut": 0.0045000000000000005
+    },
+    {
+      "strategy_id": 4,
+      "scenario_id": 1,
+      "year": 2027,
+      "period": 1,
+      "units": 4788,
+      "revenue": 383040.0,
+      "variable_cost": 42134.4,
+      "fixed_cost": 350000,
+      "lost_mechanical_units": 251.37,
+      "cannibalization_loss": 980343.0,
+      "brand_loss": 684353.826,
+      "operating_cash": -1673791.226,
+      "discounted_cash": -1494456.4517857141,
+      "cannibalization_pct": 0.025137,
+      "brand_haircut": 0.018000000000000002
+    },
+    {
+      "strategy_id": 4,
+      "scenario_id": 1,
+      "year": 2028,
+      "period": 2,
+      "units": 7980,
+      "revenue": 638400.0,
+      "variable_cost": 70224.0,
+      "fixed_cost": 350000,
+      "lost_mechanical_units": 418.95000000000005,
+      "cannibalization_loss": 1633905.0000000005,
+      "brand_loss": 672589.71,
+      "operating_cash": -2088318.7100000004,
+      "discounted_cash": -1664794.889987245,
+      "cannibalization_pct": 0.041895,
+      "brand_haircut": 0.018000000000000002
+    },
+    {
+      "strategy_id": 4,
+      "scenario_id": 1,
+      "year": 2029,
+      "period": 3,
+      "units": 10374,
+      "revenue": 829920.0,
+      "variable_cost": 91291.20000000001,
+      "fixed_cost": 350000,
+      "lost_mechanical_units": 544.635,
+      "cannibalization_loss": 2124076.5,
+      "brand_loss": 663766.623,
+      "operating_cash": -2399214.323,
+      "discounted_cash": -1707713.3653824248,
+      "cannibalization_pct": 0.0544635,
+      "brand_haircut": 0.018000000000000002
+    },
+    {
+      "strategy_id": 4,
+      "scenario_id": 2,
+      "year": 2027,
+      "period": 1,
+      "units": 6840,
+      "revenue": 547200.0,
+      "variable_cost": 54720,
+      "fixed_cost": 350000,
+      "lost_mechanical_units": 239.40000000000003,
+      "cannibalization_loss": 933660.0000000002,
+      "brand_loss": 456796.08,
+      "operating_cash": -1247976.0800000003,
+      "discounted_cash": -1114264.3571428573,
+      "cannibalization_pct": 0.023940000000000003,
+      "brand_haircut": 0.012
+    },
+    {
+      "strategy_id": 4,
+      "scenario_id": 2,
+      "year": 2028,
+      "period": 2,
+      "units": 11400,
+      "revenue": 912000.0,
+      "variable_cost": 91200,
+      "fixed_cost": 350000,
+      "lost_mechanical_units": 399.00000000000006,
+      "cannibalization_loss": 1556100.0000000005,
+      "brand_loss": 449326.8,
+      "operating_cash": -1534626.8000000005,
+      "discounted_cash": -1223395.0892857146,
+      "cannibalization_pct": 0.039900000000000005,
+      "brand_haircut": 0.012
+    },
+    {
+      "strategy_id": 4,
+      "scenario_id": 2,
+      "year": 2029,
+      "period": 3,
+      "units": 14820,
+      "revenue": 1185600.0,
+      "variable_cost": 118560,
+      "fixed_cost": 350000,
+      "lost_mechanical_units": 518.7,
+      "cannibalization_loss": 2022930.0000000005,
+      "brand_loss": 443724.84,
+      "operating_cash": -1749614.8400000005,
+      "discounted_cash": -1245341.2843932216,
+      "cannibalization_pct": 0.051870000000000006,
+      "brand_haircut": 0.012
+    },
+    {
+      "strategy_id": 4,
+      "scenario_id": 3,
+      "year": 2027,
+      "period": 1,
+      "units": 8208,
+      "revenue": 656640.0,
+      "variable_cost": 62380.799999999996,
+      "fixed_cost": 350000,
+      "lost_mechanical_units": 215.46000000000004,
+      "cannibalization_loss": 840294.0000000002,
+      "brand_loss": 343437.3540000001,
+      "operating_cash": -939472.1540000003,
+      "discounted_cash": -838814.423214286,
+      "cannibalization_pct": 0.021546000000000003,
+      "brand_haircut": 0.009000000000000001
+    },
+    {
+      "strategy_id": 4,
+      "scenario_id": 3,
+      "year": 2028,
+      "period": 2,
+      "units": 13680,
+      "revenue": 1094400.0,
+      "variable_cost": 103968.0,
+      "fixed_cost": 350000,
+      "lost_mechanical_units": 359.1,
+      "cannibalization_loss": 1400490.0,
+      "brand_loss": 338395.58999999997,
+      "operating_cash": -1098453.5899999999,
+      "discounted_cash": -875680.4767219386,
+      "cannibalization_pct": 0.035910000000000004,
+      "brand_haircut": 0.009000000000000001
+    },
+    {
+      "strategy_id": 4,
+      "scenario_id": 3,
+      "year": 2029,
+      "period": 3,
+      "units": 17784,
+      "revenue": 1422720.0,
+      "variable_cost": 135158.4,
+      "fixed_cost": 350000,
+      "lost_mechanical_units": 466.83000000000004,
+      "cannibalization_loss": 1820637.0000000005,
+      "brand_loss": 334614.267,
+      "operating_cash": -1217689.6670000004,
+      "discounted_cash": -866727.4529370901,
+      "cannibalization_pct": 0.046683,
+      "brand_haircut": 0.009000000000000001
+    },
+    {
+      "strategy_id": 5,
+      "scenario_id": 1,
+      "year": 2027,
+      "period": 1,
+      "units": 871,
+      "revenue": 1123590.0,
+      "variable_cost": 665879.5,
+      "fixed_cost": 1100000,
+      "lost_mechanical_units": 23.517,
+      "cannibalization_loss": 91716.3,
+      "brand_loss": 233449.70220000006,
+      "operating_cash": -967455.5022000001,
+      "discounted_cash": -863799.5555357143,
+      "cannibalization_pct": 0.0023517,
+      "brand_haircut": 0.006
+    },
+    {
+      "strategy_id": 5,
+      "scenario_id": 1,
+      "year": 2028,
+      "period": 2,
+      "units": 1452,
+      "revenue": 1873080.0,
+      "variable_cost": 1110054.0,
+      "fixed_cost": 1100000,
+      "lost_mechanical_units": 39.204,
+      "cannibalization_loss": 152895.6,
+      "brand_loss": 233082.62639999998,
+      "operating_cash": -722952.2263999999,
+      "discounted_cash": -576333.088647959,
+      "cannibalization_pct": 0.0039204,
+      "brand_haircut": 0.006
+    },
+    {
+      "strategy_id": 5,
+      "scenario_id": 1,
+      "year": 2029,
+      "period": 3,
+      "units": 1887,
+      "revenue": 2434230.0,
+      "variable_cost": 1442611.5000000002,
+      "fixed_cost": 1100000,
+      "lost_mechanical_units": 50.94899999999999,
+      "cannibalization_loss": 198701.09999999998,
+      "brand_loss": 232807.79340000002,
+      "operating_cash": -539890.3934000002,
+      "discounted_cash": -384283.31800633203,
+      "cannibalization_pct": 0.005094899999999999,
+      "brand_haircut": 0.006
+    },
+    {
+      "strategy_id": 5,
+      "scenario_id": 2,
+      "year": 2027,
+      "period": 1,
+      "units": 1244,
+      "revenue": 1604760.0,
+      "variable_cost": 864580,
+      "fixed_cost": 1100000,
+      "lost_mechanical_units": 22.392,
+      "cannibalization_loss": 87328.8,
+      "brand_loss": 155650.68480000002,
+      "operating_cash": -602799.4848,
+      "discounted_cash": -538213.8257142856,
+      "cannibalization_pct": 0.0022392,
+      "brand_haircut": 0.004
+    },
+    {
+      "strategy_id": 5,
+      "scenario_id": 2,
+      "year": 2028,
+      "period": 2,
+      "units": 2074,
+      "revenue": 2675460.0,
+      "variable_cost": 1441430,
+      "fixed_cost": 1100000,
+      "lost_mechanical_units": 37.331999999999994,
+      "cannibalization_loss": 145594.8,
+      "brand_loss": 155417.6208,
+      "operating_cash": -166982.4208,
+      "discounted_cash": -133117.36352040814,
+      "cannibalization_pct": 0.0037331999999999995,
+      "brand_haircut": 0.004
+    },
+    {
+      "strategy_id": 5,
+      "scenario_id": 2,
+      "year": 2029,
+      "period": 3,
+      "units": 2696,
+      "revenue": 3477840.0,
+      "variable_cost": 1873720,
+      "fixed_cost": 1100000,
+      "lost_mechanical_units": 48.528,
+      "cannibalization_loss": 189259.2,
+      "brand_loss": 155242.96320000003,
+      "operating_cash": 159617.83679999996,
+      "discounted_cash": 113612.82343294454,
+      "cannibalization_pct": 0.0048528,
+      "brand_haircut": 0.004
+    },
+    {
+      "strategy_id": 5,
+      "scenario_id": 3,
+      "year": 2027,
+      "period": 1,
+      "units": 1493,
+      "revenue": 1925970.0,
+      "variable_cost": 985753.25,
+      "fixed_cost": 1100000,
+      "lost_mechanical_units": 20.1555,
+      "cannibalization_loss": 78606.45,
+      "brand_loss": 116764.18065,
+      "operating_cash": -355153.88065,
+      "discounted_cash": -317101.6791517857,
+      "cannibalization_pct": 0.00201555,
+      "brand_haircut": 0.003
+    },
+    {
+      "strategy_id": 5,
+      "scenario_id": 3,
+      "year": 2028,
+      "period": 2,
+      "units": 2489,
+      "revenue": 3210810.0,
+      "variable_cost": 1643362.25,
+      "fixed_cost": 1100000,
+      "lost_mechanical_units": 33.6015,
+      "cannibalization_loss": 131045.85,
+      "brand_loss": 116606.86244999999,
+      "operating_cash": 219795.03755000004,
+      "discounted_cash": 175219.25825095663,
+      "cannibalization_pct": 0.00336015,
+      "brand_haircut": 0.003
+    },
+    {
+      "strategy_id": 5,
+      "scenario_id": 3,
+      "year": 2029,
+      "period": 3,
+      "units": 3235,
+      "revenue": 4173150.0,
+      "variable_cost": 2135908.75,
+      "fixed_cost": 1100000,
+      "lost_mechanical_units": 43.6725,
+      "cannibalization_loss": 170322.75,
+      "brand_loss": 116489.03175,
+      "operating_cash": 650429.46825,
+      "discounted_cash": 462962.84809613007,
+      "cannibalization_pct": 0.00436725,
+      "brand_haircut": 0.003
+    }
+  ],
+  "summary": [
+    {
+      "strategy_id": 1,
+      "scenario_id": 1,
+      "npv": -7960200.016057761,
+      "total_units": 3069,
+      "total_revenue": 4750812.0,
+      "total_cannibalization_loss": 1077219.0,
+      "total_brand_loss": 2608262.5725000002,
+      "max_cannibalization_pct": 0.012384000000000001,
+      "max_brand_haircut": 0.0225
+    },
+    {
+      "strategy_id": 1,
+      "scenario_id": 2,
+      "npv": -6274905.740502004,
+      "total_units": 4385,
+      "total_revenue": 6787980.0,
+      "total_cannibalization_loss": 1026090.0,
+      "total_brand_loss": 1739608.6500000001,
+      "max_cannibalization_pct": 0.011796,
+      "max_brand_haircut": 0.015
+    },
+    {
+      "strategy_id": 1,
+      "scenario_id": 3,
+      "npv": -5177655.3303735135,
+      "total_units": 5262,
+      "total_revenue": 8145576.0,
+      "total_cannibalization_loss": 923481.0,
+      "total_brand_loss": 1305860.83875,
+      "max_cannibalization_pct": 0.0106155,
+      "max_brand_haircut": 0.01125
+    },
+    {
+      "strategy_id": 2,
+      "scenario_id": 1,
+      "npv": -5995579.100727042,
+      "total_units": 15509,
+      "total_revenue": 12965524.0,
+      "total_cannibalization_loss": 1088731.8000000003,
+      "total_brand_loss": 347733.80460000003,
+      "max_cannibalization_pct": 0.012513600000000001,
+      "max_brand_haircut": 0.003
+    },
+    {
+      "strategy_id": 2,
+      "scenario_id": 2,
+      "npv": -3519508.774916181,
+      "total_units": 22156,
+      "total_revenue": 18522416.0,
+      "total_cannibalization_loss": 1036900.8,
+      "total_brand_loss": 231926.19840000002,
+      "max_cannibalization_pct": 0.0119184,
+      "max_brand_haircut": 0.002
+    },
+    {
+      "strategy_id": 2,
+      "scenario_id": 3,
+      "npv": -1715515.2127310727,
+      "total_units": 26587,
+      "total_revenue": 22226732.0,
+      "total_cannibalization_loss": 933203.7,
+      "total_brand_loss": 174100.19444999998,
+      "max_cannibalization_pct": 0.0107262,
+      "max_brand_haircut": 0.0015
+    },
+    {
+      "strategy_id": 3,
+      "scenario_id": 1,
+      "npv": -4157029.9921721257,
+      "total_units": 7034,
+      "total_revenue": 6858150.0,
+      "total_cannibalization_loss": 905275.8,
+      "total_brand_loss": 1044852.5177999999,
+      "max_cannibalization_pct": 0.0104049,
+      "max_brand_haircut": 0.009000000000000001
+    },
+    {
+      "strategy_id": 3,
+      "scenario_id": 2,
+      "npv": -2545741.716696884,
+      "total_units": 10049,
+      "total_revenue": 9797775.0,
+      "total_cannibalization_loss": 862204.2,
+      "total_brand_loss": 696826.7748,
+      "max_cannibalization_pct": 0.009911,
+      "max_brand_haircut": 0.006
+    },
+    {
+      "strategy_id": 3,
+      "scenario_id": 3,
+      "npv": -1416250.170647464,
+      "total_units": 12058,
+      "total_revenue": 11756550.0,
+      "total_cannibalization_loss": 775932.3,
+      "total_brand_loss": 523008.30465000006,
+      "max_cannibalization_pct": 0.00891825,
+      "max_brand_haircut": 0.0045000000000000005
+    },
+    {
+      "strategy_id": 4,
+      "scenario_id": 1,
+      "npv": -5466964.707155384,
+      "total_units": 23142,
+      "total_revenue": 1851360.0,
+      "total_cannibalization_loss": 4738324.5,
+      "total_brand_loss": 2020710.159,
+      "max_cannibalization_pct": 0.0544635,
+      "max_brand_haircut": 0.018000000000000002
+    },
+    {
+      "strategy_id": 4,
+      "scenario_id": 2,
+      "npv": -4183000.7308217934,
+      "total_units": 33060,
+      "total_revenue": 2644800.0,
+      "total_cannibalization_loss": 4512690.000000001,
+      "total_brand_loss": 1349847.72,
+      "max_cannibalization_pct": 0.051870000000000006,
+      "max_brand_haircut": 0.012
+    },
+    {
+      "strategy_id": 4,
+      "scenario_id": 3,
+      "npv": -3181222.3528733146,
+      "total_units": 39672,
+      "total_revenue": 3173760.0,
+      "total_cannibalization_loss": 4061421.000000001,
+      "total_brand_loss": 1016447.2110000001,
+      "max_cannibalization_pct": 0.046683,
+      "max_brand_haircut": 0.009000000000000001
+    },
+    {
+      "strategy_id": 5,
+      "scenario_id": 1,
+      "npv": -4324415.962190006,
+      "total_units": 4210,
+      "total_revenue": 5430900.0,
+      "total_cannibalization_loss": 443313.0,
+      "total_brand_loss": 699340.1220000001,
+      "max_cannibalization_pct": 0.005094899999999999,
+      "max_brand_haircut": 0.006
+    },
+    {
+      "strategy_id": 5,
+      "scenario_id": 2,
+      "npv": -3057718.3658017493,
+      "total_units": 6014,
+      "total_revenue": 7758060.0,
+      "total_cannibalization_loss": 422182.8,
+      "total_brand_loss": 466311.2688000001,
+      "max_cannibalization_pct": 0.0048528,
+      "max_brand_haircut": 0.004
+    },
+    {
+      "strategy_id": 5,
+      "scenario_id": 3,
+      "npv": -2178919.5728046987,
+      "total_units": 7217,
+      "total_revenue": 9309930.0,
+      "total_cannibalization_loss": 379975.05,
+      "total_brand_loss": 349860.07485,
+      "max_cannibalization_pct": 0.00436725,
+      "max_brand_haircut": 0.003
+    }
+  ],
+  "pricing": [
+    {
+      "price": 750,
+      "qualified_n": 54,
+      "base_annual_units": 10100.0,
+      "net_unit_contribution": 160.0,
+      "npv": -5926633.356477769
+    },
+    {
+      "price": 950,
+      "qualified_n": 44,
+      "base_annual_units": 7640.0,
+      "net_unit_contribution": 336.0,
+      "npv": -3519508.7749161813
+    },
+    {
+      "price": 1150,
+      "qualified_n": 25,
+      "base_annual_units": 3640.0,
+      "net_unit_contribution": 512.0,
+      "npv": -4685958.371490525
+    },
+    {
+      "price": 1350,
+      "qualified_n": 17,
+      "base_annual_units": 2360.0,
+      "net_unit_contribution": 688.0,
+      "npv": -5092925.761344752
+    }
+  ],
+  "thresholds": [
+    {
+      "strategy_id": 1,
+      "risk_adjusted_unit_contribution": 507.51,
+      "base_annual_units": 1512.0,
+      "break_even_volume_multiple": 4.62116081347094,
+      "max_volume_multiple_for_cannibalization": 1.6958350291683624
+    },
+    {
+      "strategy_id": 2,
+      "risk_adjusted_unit_contribution": 289.29359999999997,
+      "base_annual_units": 7640.0,
+      "break_even_volume_multiple": 1.7051526468688394,
+      "max_volume_multiple_for_cannibalization": 1.6780775943079609
+    },
+    {
+      "strategy_id": 3,
+      "risk_adjusted_unit_contribution": 339.71479999999997,
+      "base_annual_units": 3465.0,
+      "break_even_volume_multiple": 1.957746404040337,
+      "max_volume_multiple_for_cannibalization": 2.0181838363656546
+    },
+    {
+      "strategy_id": 4,
+      "risk_adjusted_unit_contribution": -62.861999999999995,
+      "base_annual_units": 11400.0,
+      "break_even_volume_multiple": "Not feasible",
+      "max_volume_multiple_for_cannibalization": 0.385579332947754
+    },
+    {
+      "strategy_id": 5,
+      "risk_adjusted_unit_contribution": 525.0808,
+      "base_annual_units": 2074.0,
+      "break_even_volume_multiple": 2.2432504086410794,
+      "max_volume_multiple_for_cannibalization": 4.121026300389849
+    }
+  ],
+  "sensitivity": [
+    {
+      "strategy_id": 1,
+      "volume_multiple": 0.7,
+      "npv": -6794968.243895772
+    },
+    {
+      "strategy_id": 1,
+      "volume_multiple": 1,
+      "npv": -6274905.740502004
+    },
+    {
+      "strategy_id": 1,
+      "volume_multiple": 1.3,
+      "npv": -5755204.472701803
+    },
+    {
+      "strategy_id": 1,
+      "volume_multiple": 1.6,
+      "npv": -5235093.41924426
+    },
+    {
+      "strategy_id": 1,
+      "volume_multiple": 2,
+      "npv": -4542354.522355594
+    },
+    {
+      "strategy_id": 2,
+      "volume_multiple": 0.7,
+      "npv": -5016878.584774053
+    },
+    {
+      "strategy_id": 2,
+      "volume_multiple": 1,
+      "npv": -3519508.7749161813
+    },
+    {
+      "strategy_id": 2,
+      "volume_multiple": 1.3,
+      "npv": -2022138.9650583102
+    },
+    {
+      "strategy_id": 2,
+      "volume_multiple": 1.6,
+      "npv": -524975.0686707371
+    },
+    {
+      "strategy_id": 2,
+      "volume_multiple": 2,
+      "npv": 1471621.571887753
+    },
+    {
+      "strategy_id": 3,
+      "volume_multiple": 0.7,
+      "npv": -3343308.5621287352
+    },
+    {
+      "strategy_id": 3,
+      "volume_multiple": 1,
+      "npv": -2545741.7166968845
+    },
+    {
+      "strategy_id": 3,
+      "volume_multiple": 1.3,
+      "npv": -1748145.8549908896
+    },
+    {
+      "strategy_id": 3,
+      "volume_multiple": 1.6,
+      "npv": -951124.1286292826
+    },
+    {
+      "strategy_id": 3,
+      "volume_multiple": 2,
+      "npv": 112317.67612928106
+    },
+    {
+      "strategy_id": 4,
+      "volume_multiple": 0.7,
+      "npv": -3697509.904796829
+    },
+    {
+      "strategy_id": 4,
+      "volume_multiple": 1,
+      "npv": -4183000.730821792
+    },
+    {
+      "strategy_id": 4,
+      "volume_multiple": 1.3,
+      "npv": -4668491.556846756
+    },
+    {
+      "strategy_id": 4,
+      "volume_multiple": 1.6,
+      "npv": -5153982.382871719
+    },
+    {
+      "strategy_id": 4,
+      "volume_multiple": 2,
+      "npv": -5801303.484238337
+    },
+    {
+      "strategy_id": 5,
+      "volume_multiple": 0.7,
+      "npv": -3795310.1436871355
+    },
+    {
+      "strategy_id": 5,
+      "volume_multiple": 1,
+      "npv": -3057718.3658017498
+    },
+    {
+      "strategy_id": 5,
+      "volume_multiple": 1.3,
+      "npv": -2319657.765773506
+    },
+    {
+      "strategy_id": 5,
+      "volume_multiple": 1.6,
+      "npv": -1582065.98788812
+    },
+    {
+      "strategy_id": 5,
+      "volume_multiple": 2,
+      "npv": -598267.8365743449
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "S1",
+      "item": "Apple Watch Ultra 3",
+      "reference_price_usd": 799,
+      "price_basis": "US launch price; 2025-09-09, not current quote",
+      "architecture": "Technology-led smartwatch",
+      "source_url": "https://www.apple.com/newsroom/2025/09/introducing-apple-watch-ultra-3/",
+      "accessed": "2026-09-19"
+    },
+    {
+      "source_id": "S2",
+      "item": "TAG Heuer Connected E5 SBT8A80.BT6293",
+      "reference_price_usd": 2450,
+      "price_basis": "Specific US titanium model page; accessed date",
+      "architecture": "Heritage brand extension",
+      "source_url": "https://www.tagheuer.com/us/en/smartwatches/collections/tag-heuer-connected/45-mm/SBT8A80.BT6293.html",
+      "accessed": "2026-09-19"
+    },
+    {
+      "source_id": "S3",
+      "item": "Withings ScanWatch Nova",
+      "reference_price_usd": "",
+      "price_basis": "Not used; source has placeholder price",
+      "architecture": "Analog-style hybrid with health sensors",
+      "source_url": "https://media.withings.com/press/press-releases/scanwatch-nova/withings-scanwatch-nova-en.pdf",
+      "accessed": "2026-09-19"
+    }
+  ]
+}

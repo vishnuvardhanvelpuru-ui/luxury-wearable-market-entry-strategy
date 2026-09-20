@@ -1,0 +1,13 @@
+{
+  "name": "Valenne Strategy",
+  "dataColors": [
+    "#243746",
+    "#B58A48",
+    "#477D85",
+    "#8C667E",
+    "#9099A2"
+  ],
+  "background": "#F7F7F4",
+  "foreground": "#243746",
+  "tableAccent": "#B58A48"
+}
