@@ -10,6 +10,7 @@ Its approximate break-even demand is 1.71× base; the 2% mechanical-displacement
 ## Start here
 - [Strategy memo](docs/STRATEGY_MEMO.md): business problem, alternatives, market/customer context, MECE, SWOT, economics, risks and execution gates.
 - [Excel analysis](excel/Case3_Analysis.xlsx): formula-driven qualification, demand, cash flow, NPV and four-price test.
+- [Power BI screenshots and interpretation](#power-bi-screenshots-and-interpretation): findings, validation evidence and final decision.
 - [Power BI build guide](powerbi/BUILD_GUIDE.md): exact three-page report layout, relationships, slicers, visuals and acceptance checks.
 - [Power BI layout mockup](powerbi/dashboard_mockup.html): download/open locally; static preview only, not a working dashboard.
 - [Data model](docs/DATA_MODEL.md) and [dictionary](docs/data_dictionary.csv).
@@ -30,8 +31,39 @@ scripts/           Reproducible generation and validation helpers
 ## What was completed
 Business framing; 120 synthetic respondents and 600 concept responses; relational model; MySQL 8.0.46 schema/seed/views executed in an isolated local database; meaningful SQL analysis; Excel formula model; five-option strategy analysis plus no entry; price and demand sensitivity; public competitor references; Power BI datasets, model, DAX and three-page specification; calculation reconciliation; repository documentation.
 
-## Manual Action Required
-**Power BI only:** build/save `Case3_Dashboard.pbix` in local Power BI Desktop, execute the DAX acceptance checks and add three report screenshots. These cannot be honestly marked complete from a specification. No live dashboard is claimed. Everything needed for that build is in `powerbi/`.
+## Power BI screenshots and interpretation
+
+These are static screenshots of the report built in local Power BI Desktop, using synthetic Maison Valenne data for the US, in USD, for 2027–2029. They are evidence of the report and its checks, not an interactive dashboard or real customer research. Financial comparisons below use the Base scenario; the customer and economics pages show the separate sibling brand.
+
+### 1. Entry decision — should the company enter?
+
+![Entry decision dashboard](powerbi/screenshots/entry-decision.png)
+
+The chart compares three-year NPV for five mutually exclusive entry packages against the $0 incremental no-entry benchmark. Every package has negative Base NPV: co-branding has the smallest loss (about −$2.55 million), while the sibling brand is about −$3.52 million; the risk table also shows that meeting heritage-risk limits does not guarantee a viable investment. **Decision implication:** defer commercial entry rather than select the least-negative package as a launch recommendation.
+
+### 2. Customer and price fit — who fits the sibling concept?
+
+![Customer and price fit dashboard](powerbi/screenshots/customer-fit.png)
+
+At the $950 concept price, 44 of 120 synthetic respondents qualify (36.7%), and the model translates qualification, reachable audiences and calibration assumptions into 7,640 base annual units. Design-led professionals have the strongest qualification rate (22 of 30), followed by wellness enthusiasts (12 of 30); these two segments also lead modeled demand. **Decision implication:** prioritize these groups for future concept and willingness-to-pay research, while treating modeled demand as an assumption to validate rather than proof of commercial viability; $950 is the concept price shown, not evidence of an optimal price.
+
+### 3. Economics and heritage risk — does the sibling concept justify investment?
+
+![Economics and heritage risk dashboard](powerbi/screenshots/economics-risk.png)
+
+The sibling/Base view shows a 40.2% direct contribution margin, maximum mechanical displacement of about 1.2% (below the 2% limit), and a 0.2% brand haircut (below the 0.5% limit). Despite growing revenue and improving annual operating cash, three-year NPV remains about −$3.52 million after the model's investment, operating-cost and heritage-loss assumptions. **Decision implication:** do not launch under the current assumptions; passing the heritage-risk gates and earning a positive direct margin are insufficient when the overall investment still destroys modeled value.
+
+### 4. DAX validation — are the reported calculations consistent?
+
+![DAX acceptance-check result](powerbi/screenshots/dax-checks.png)
+
+The result shows Checks = 12, Passed = 1 and ExpectedPassed = 1: Passed is one combined result row that satisfies all 12 conditions, not just one successful check out of twelve. The conditions cover record counts, cash reconciliation, sibling/Base financial and customer measures, zero positive NPVs across the 15 strategy/scenario cases, and selected filter behavior. **Interpretation:** the tested calculations are internally consistent; this does not establish real-world forecast accuracy or exhaustive testing of every possible slicer combination.
+
+### Final business decision
+
+**Defer a full commercial launch.** None of the five strategies achieves positive three-year NPV in the tested scenarios. The sibling architecture remains a conditional concept for further evidence gathering because it limits heritage exposure, but its −$3.52 million Base NPV does not justify launch. Revisit the decision only after validated customer demand and revised economics support positive NPV while remaining within the heritage-risk limits; more volume alone is insufficient under the current model.
+
+The report was built and checked locally, and the screenshots are available above. Upload of the downloadable PBIX and editable project files remains pending; these images should not be presented as a hosted interactive report.
 
 ## Run the SQL
 Requires MySQL 8.0+. Use a new `luxury_case3` schema; the scripts never drop existing databases. In MySQL Workbench open and execute `01_schema.sql`, then `02_seed.sql`, `03_analysis.sql`, `04_quality_checks.sql` and `05_pricing.sql` in that order. The seed is the import path for the exact CSV data, so no `LOCAL INFILE` configuration is needed. Run seed only once; duplicate primary keys prevent silent duplication. For a repeat run use an empty schema or intentionally prepare a separate schema name. Read results from v_segment, v_forecast and v_summary.
